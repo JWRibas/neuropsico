@@ -7,6 +7,7 @@
                  start-page="Section-Starting-Page.topic">
 
     <toc-element topic="Section-Starting-Page.topic">
+        <toc-element topic="Section-Starting-Page_2.topic"/>
     </toc-element>
     <toc-element topic="Empty-MD-Topic.md">
         <toc-element topic="starter.md"/>

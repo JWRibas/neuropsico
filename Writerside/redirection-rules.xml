@@ -10,4 +10,8 @@
         <description>Created after removal of "Aulas online" from Neuropsicologia</description>
         <accepts>Concept.html</accepts>
     </rule>
+    <rule id="1f10d5b2">
+        <description>Created after removal of "Topic title" from Neuropsicologia</description>
+        <accepts>neuro.html</accepts>
+    </rule>
 </rules>
