@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       id="Materias" title="Matérias">
+
+    <chapter title="Neurofisiologia" id="neurofisiologia">
+        <chapter title="Ciclo 1" id="ciclo-1">
+            <tabs>
+                <tab title="Memória e Aprendizagem">
+                    <title>Memória e Aprendizagem</title>
+                    <p><title>
+                        Memória e Aprendizagem
+                    </title>
+                        <chapter title="Visão Geral" id="vis-o-geral">
+                            <p>Este documento explora a evolução científica da compreensão sobre memória, detalhando
+                                abordagens de pesquisa e mecanismos de armazenamento de informações no cérebro.</p>
+                        </chapter>
+                        <chapter title="Perspectivas Históricas de Pesquisa" id="perspectivas-hist-ricas-de-pesquisa">
+                            <p>Pesquisadores inicialmente lutaram com questões fundamentais sobre memória:</p>
+                            <list>
+                                <li>Investigações iniciais focavam em identificar locais específicos do cérebro
+                                    responsáveis pelas funções de memória
+                                </li>
+                                <li>Estudos experimentais utilizando labirintos de ratos buscavam compreender os
+                                    mecanismos de armazenamento de memória
+                                </li>
+                            </list>
+                        </chapter>
+                        <chapter title="Estágios de Processamento da Memória" id="est-gios-de-processamento-da-mem-ria">
+                            <p>A memória envolve um processo complexo, multi-etapas, ilustrado através de um estudo de
+                                caso de uma estudante interessada em psicopatia:</p>
+                            <chapter title="1. Aquisição" id="1-aquisi-o">
+                                <p>
+                                    <emphasis>Definição</emphasis>
+                                    : Entrada inicial de informações nos sistemas neurais
+                                </p>
+                                <p>
+                                    <control>Exemplo</control>
+                                    : Uma estudante assiste a palestras sem interesse específico inicialmente
+                                </p>
+                            </chapter>
+                            <chapter title="2. Seleção" id="2-sele-o">
+                                <p>
+                                    <emphasis>Definição</emphasis>
+                                    : Identificação e filtragem das informações mais cruciais
+                                </p>
+                                <p>
+                                    <control>Exemplo</control>
+                                    : Durante uma palestra sobre psicopatia, a estudante se torna atenta e seleciona
+                                    detalhes relevantes
+                                </p>
+                            </chapter>
+                            <chapter title="3. Retenção" id="3-reten-o">
+                                <p>
+                                    <emphasis>Definição</emphasis>
+                                    : Capacidade de armazenar informações para uso potencial futuro
+                                </p>
+                                <p>
+                                    <control>Exemplo</control>
+                                    : A estudante decide preservar informações para prática clínica futura
+                                </p>
+                            </chapter>
+                            <chapter title="4. Consolidação" id="4-consolida-o">
+                                <p>
+                                    <emphasis>Definição</emphasis>
+                                    : Garantia de persistência prolongada da memória
+                                </p>
+                                <p>
+                                    <control>Exemplo</control>
+                                    : Conhecimentos sobre psicopatia tornam-se integrais à formação profissional
+                                </p>
+                            </chapter>
+                            <chapter title="5. Recuperação" id="5-recupera-o">
+                                <p>
+                                    <emphasis>Definição</emphasis>
+                                    : Acesso a informações armazenadas quando necessário
+                                </p>
+                                <p>
+                                    <control>Exemplo</control>
+                                    : Ao tratar um paciente com traços psicopáticos, a estudante recupera informações
+                                    previamente aprendidas
+                                </p>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Tipos de Aprendizagem" id="tipos-de-aprendizagem">
+                            <chapter title="Dependência de Estado da Memória" id="depend-ncia-de-estado-da-mem-ria">
+                                <p>Memórias são mais facilmente recordadas em condições similares à sua formação.</p>
+                                <tabs>
+                                    <tab title="Exemplo 1">
+                                        Estudar comendo chocolate e posteriormente fazer prova também comendo chocolate
+                                    </tab>
+                                    <tab title="Exemplo 2">
+                                        Lembrar eventos alegres quando se está feliz, e eventos tristes quando se está
+                                        melancólico
+                                    </tab>
+                                </tabs>
+                            </chapter>
+                            <chapter title="Sensibilização" id="sensibiliza-o">
+                                <p>Uma experiência traumática singular que mantém um estado de alerta elevado no
+                                    organismo.</p>
+                                <p>
+                                    <control>Ilustração Prática</control>
+                                    : Uma professora desenvolve medo persistente noturno após sofrer um assalto
+                                </p>
+                            </chapter>
+                            <chapter title="Habituação" id="habitua-o">
+                                <p>Adaptação gradual a estímulos repetidamente encontrados e inicialmente considerados
+                                    ameaçadores.</p>
+                                <p>
+                                    <control>Ilustração Prática</control>
+                                    : Superação do medo de altura trabalhando em um escritório no último andar
+                                </p>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Durações de Retenção da Memória" id="dura-es-de-reten-o-da-mem-ria">
+                            <list type="decimal">
+                                <li>
+                                    <p>
+                                        <control>Ultra Curto Prazo</control>
+                                        (segundos)
+                                    </p>
+                                    <list>
+                                        <li>Exemplo: Repetir um número de telefone até anotá-lo</li>
+                                    </list>
+                                </li>
+                                <li>
+                                    <p>
+                                        <control>Curto Prazo</control>
+                                        (minutos a horas)
+                                    </p>
+                                    <list>
+                                        <li>Exemplo: Recordar o cardápio do café da manhã</li>
+                                    </list>
+                                </li>
+                                <li>
+                                    <p>
+                                        <control>Longo Prazo</control>
+                                        (dias a anos)
+                                    </p>
+                                    <list>
+                                        <li>Exemplo: Lembrar a tabuada aprendida na escola</li>
+                                    </list>
+                                </li>
+                            </list>
+                        </chapter>
+                        <chapter title="Contribuições Científicas Significativas"
+                                 id="contribui-es-cient-ficas-significativas">
+                            <tip>
+                                <p>
+                                    <control>Wilder Penfield</control>
+                                    : Mapeou funções cerebrais através de estimulação elétrica
+                                </p>
+                                <p>
+                                    <control>Donald Hebb</control>
+                                    : Propôs que a formação de memória envolve reativação de circuitos corticais
+                                </p>
+                            </tip>
+                        </chapter>
+                        <chapter title="Conclusão" id="conclus-o">
+                            <p>A memória representa um processo intrincado envolvendo:</p>
+                            <list>
+                                <li>Múltiplos estágios de processamento</li>
+                                <li>Diversas regiões cerebrais</li>
+                                <li>Significativas variações individuais e contextuais</li>
+                            </list>
+                            <p>Fundamental para aprendizagem e comportamento adaptativo.</p>
+                        </chapter>
+                        <chapter title="Referências" id="refer-ncias">
+                            <list>
+                                <li>Arquivos de pesquisas neuropsicológicas</li>
+                                <li>Estudos contemporâneos sobre memória</li>
+                                <li>Publicações de neurociência cognitiva</li>
+                            </list>
+                        </chapter>
+                        <chapter title="Recursos Adicionais" id="recursos-adicionais" collapsible="true"
+                                 default-state="collapsed">
+                            <p>Para uma exploração mais aprofundada dos mecanismos de memória, considere consultar:</p>
+                            <list>
+                                <li>Livros avançados de neurociência</li>
+                                <li>Revistas especializadas de psicologia cognitiva</li>
+                                <li>Bases de dados de pesquisa acadêmica</li>
+                            </list>
+                        </chapter>
+
+                    </p>
+                </tab>
+                
+                <tab title="Memória de Curto Prazo - 1">
+                    <p><title>
+                        Memória de Curto Prazo - Parte 1
+                    </title>
+                        <chapter title="Visão Geral" id="vis-o-geral">
+                            <p>A memória é um processo cognitivo complexo que envolve múltiplas estruturas cerebrais e
+                                tipos de armazenamento de informações. Este guia explora em profundidade os diversos
+                                aspectos da memória humana.</p>
+                        </chapter>
+                        <chapter title="Memória de Curto Prazo (Memória de Trabalho)"
+                                 id="mem-ria-de-curto-prazo-mem-ria-de-trabalho">
+                            <chapter title="Definição" id="defini-o">
+                                <p>A memória de trabalho é um sistema cognitivo que mantém informações temporariamente
+                                    disponíveis para uso imediato, processamento e execução de tarefas.</p>
+                            </chapter>
+                            <chapter title="Subsistemas Principais" id="subsistemas-principais">
+                                <list type="decimal">
+                                    <li>
+                                        <control>Subsistema Verbal</control>
+                                    </li>
+                                    <li>
+                                        <control>Subsistema Visuoespacial</control>
+                                    </li>
+                                    <li>
+                                        <control>Processos de Controle Executivo</control>
+                                    </li>
+                                </list>
+                            </chapter>
+                            <chapter title="Funções Primárias" id="fun-es-prim-rias">
+                                <list>
+                                    <li>Alocação de recursos atencionais</li>
+                                    <li>Manipulação de representações verbais e visuais</li>
+                                    <li>Manutenção e direcionamento da atenção</li>
+                                </list>
+                            </chapter>
+                            <chapter title="Base Neural" id="base-neural">
+                                <chapter title="Córtex Pré-Frontal" id="c-rtex-pr-frontal">
+                                    <list>
+                                        <li>Especializado em resolução de problemas</li>
+                                        <li>Fundamental para manutenção da atenção</li>
+                                    </list>
+                                </chapter>
+                                <chapter title="Modulação Dopaminérgica" id="modula-o-dopamin-rgica">
+                                    <list>
+                                        <li>Dependente da ação da dopamina</li>
+                                        <li>Requer estimulação ótima de receptores D1</li>
+                                    </list>
+                                    <tip>
+                                        <p>
+                                            <control>Nota Clínica</control>
+                                            : Pacientes com TDAH ou esquizofrenia podem apresentar déficits cognitivos
+                                            devido à redução na liberação de dopamina no córtex pré-frontal.
+                                        </p>
+                                    </tip>
+                                </chapter>
+                            </chapter>
+                            <chapter title="Experimento Ilustrativo com Macacos"
+                                     id="experimento-ilustrativo-com-macacos">
+                                <tabs>
+                                    <tab title="Protocolo Experimental">
+                                        1. Dois poços: um vazio, outro com alimento visível
+                                        2. Alimento posicionado aleatoriamente
+                                        3. Tela cobriu os poços por tempo padronizado
+                                        4. Macaco deve recuperar alimento baseado na memória de localização
+                                    </tab>
+                                    <tab title="Objetivo">
+                                        Demonstrar o uso da memória de trabalho na retenção temporária de informação
+                                        espacial
+                                    </tab>
+                                </tabs>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Classificação Abrangente da Memória" id="classifica-o-abrangente-da-mem-ria">
+                            <chapter title="Por Tempo de Retenção" id="por-tempo-de-reten-o">
+                                <list>
+                                    <li>Curto prazo</li>
+                                    <li>Longo prazo</li>
+                                </list>
+                            </chapter>
+                            <chapter title="Por Natureza" id="por-natureza">
+                                <list>
+                                    <li>Memória Explícita (Declarativa)</li>
+                                    <li>Memória Implícita (Não Declarativa)</li>
+                                </list>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Memória Explícita (Declarativa)" id="mem-ria-expl-cita-declarativa">
+                            <chapter title="Características Fundamentais" id="caracter-sticas-fundamentais">
+                                <list>
+                                    <li>Armazena conhecimento sobre
+                                        <control>o que aconteceu</control>
+                                    </li>
+                                    <li>Memórias conscientes e declaráveis</li>
+                                    <li>Facilmente adquiridas, mas também rapidamente esquecidas</li>
+                                </list>
+                            </chapter>
+                            <chapter title="Estruturas Cerebrais Associadas" id="estruturas-cerebrais-associadas">
+                                <list>
+                                    <li>Lobo temporal medial</li>
+                                    <li>Hipocampo</li>
+                                    <li>Amígdala</li>
+                                </list>
+                            </chapter>
+                            <chapter title="Subdivisões" id="subdivis-es_1">
+                                <chapter title="1. Memória Operacional" id="1-mem-ria-operacional">
+                                    <list>
+                                        <li>Utilização rápida no raciocínio</li>
+                                        <li>
+                                            <control>Exemplo</control>
+                                            : Localização temporária de objetos pessoais
+                                        </li>
+                                    </list>
+                                </chapter>
+                                <chapter title="2. Memória Semântica" id="2-mem-ria-sem-ntica">
+                                    <list>
+                                        <li>Conceitos atemporais e conhecimento geral</li>
+                                        <li>
+                                            <control>Exemplo</control>
+                                            : Capitais de países, convenções sociais
+                                        </li>
+                                    </list>
+                                </chapter>
+                                <chapter title="3. Memória Episódica" id="3-mem-ria-epis-dica">
+                                    <list>
+                                        <li>Eventos datados e contextualizados</li>
+                                        <li>
+                                            <control>Exemplo</control>
+                                            : Recordações de momentos específicos da vida
+                                        </li>
+                                    </list>
+                                </chapter>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Memória Implícita (Não Declarativa)" id="mem-ria-impl-cita-n-o-declarativa">
+                            <chapter title="Características Principais" id="caracter-sticas-principais">
+                                <list>
+                                    <li>Armazena conhecimento sobre
+                                        <control>como fazer</control>
+                                    </li>
+                                    <li>Não atinge nível consciente</li>
+                                    <li>Adquirida lentamente, mas duradoura</li>
+                                </list>
+                            </chapter>
+                            <chapter title="Subdivisões" id="subdivis-es">
+                                <list type="decimal">
+                                    <li>
+                                        <p>
+                                            <control>Memória de Representação Perceptual</control>
+                                        </p>
+                                        <list>
+                                            <li>Reconhecimento de objetos sem compreensão funcional</li>
+                                        </list>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <control>Memória de Procedimento</control>
+                                        </p>
+                                        <list>
+                                            <li>Hábitos e habilidades motoras automatizadas</li>
+                                            <li>
+                                                <control>Exemplo</control>
+                                                : Dirigir sem atenção consciente aos movimentos
+                                            </li>
+                                        </list>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <control>Memória Associativa</control>
+                                        </p>
+                                        <list>
+                                            <li>Conexões entre estímulos</li>
+                                            <li>
+                                                <control>Exemplo</control>
+                                                : Salivação ao ver alimento
+                                            </li>
+                                        </list>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <control>Memória Não Associativa</control>
+                                        </p>
+                                        <list>
+                                            <li>Aprendizado de estímulos repetitivos</li>
+                                            <li>
+                                                <control>Exemplo</control>
+                                                : Ignorar sons familiares
+                                            </li>
+                                        </list>
+                                    </li>
+                                </list>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Estruturas Cerebrais e Memória" id="estruturas-cerebrais-e-mem-ria">
+                            <chapter title="Principais Estruturas" id="principais-estruturas">
+                                <list type="decimal">
+                                    <li>
+                                        <p>
+                                            <control>Hipocampo</control>
+                                        </p>
+                                        <list>
+                                            <li>Crucial na consolidação de memórias</li>
+                                            <li>Lesões podem causar amnésia anterógrada</li>
+                                        </list>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <control>Lobo Frontal</control>
+                                        </p>
+                                        <list>
+                                            <li>Integração com áreas sensoriais</li>
+                                            <li>Participação no armazenamento de memórias</li>
+                                        </list>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <control>Amígdala</control>
+                                        </p>
+                                        <list>
+                                            <li>Processamento emocional de memórias</li>
+                                        </list>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <control>Núcleos da Base e Cerebelo</control>
+                                        </p>
+                                        <list>
+                                            <li>Fundamentais para memória implícita</li>
+                                            <li>Coordenação de movimentos e procedimentos</li>
+                                        </list>
+                                    </li>
+                                </list>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Consolidação de Memórias" id="consolida-o-de-mem-rias">
+                            <chapter title="Fatores Influenciadores" id="fatores-influenciadores">
+                                <list>
+                                    <li>Estados emocionais</li>
+                                    <li>Níveis de atenção</li>
+                                    <li>Motivação</li>
+                                    <li>Dedicação</li>
+                                </list>
+                                <tip>
+                                    <p>
+                                        <control>Insight</control>
+                                        : Objetos com valor sentimental são mais facilmente lembrados devido ao
+                                        envolvimento emocional.
+                                    </p>
+                                </tip>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Considerações Finais" id="considera-es-finais">
+                            <p>A memória representa um sistema cognitivo intrincado que:</p>
+                            <list>
+                                <li>Integra múltiplas áreas cerebrais</li>
+                                <li>Permite armazenamento de informações diversas</li>
+                                <li>Vai desde fatos conscientes até habilidades automáticas</li>
+                            </list>
+                            <chapter title="Pontos-Chave" id="pontos-chave">
+                                <list>
+                                    <li>Diferentes memórias envolvem estruturas cerebrais distintas</li>
+                                    <li>Fatores emocionais influenciam significativamente a consolidação</li>
+                                    <li>Lesões podem comprometer específicos processos de memória</li>
+                                </list>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Referências Recomendadas" id="refer-ncias-recomendadas" collapsible="true"
+                                 default-state="collapsed">
+                            <list>
+                                <li>Tratados de Neurociência Cognitiva</li>
+                                <li>Publicações especializadas em Psicologia Cognitiva</li>
+                                <li>Journals de Neuropsicologia</li>
+                            </list>
+                        </chapter>
+                    </p>
+                </tab>
+                <tab title="Memória de Curto Prazo - 2">
+                    <p><title>
+                        Memória de Curto Prazo - Parte 2
+                    </title>
+                        <chapter title="Memória e Amnésia: Uma Visão Científica"
+                                 id="mem-ria-e-amn-sia-uma-vis-o-cient-fica">
+                        </chapter>
+                        <chapter title="Introdução" id="introdu-o">
+                            <p>A amnésia representa um fenômeno complexo que revela os intrincados mecanismos de
+                                formação e armazenamento de memórias no cérebro humano.</p>
+                        </chapter>
+                        <chapter title="Tipos de Amnésia" id="tipos-de-amn-sia">
+                            <chapter title="1. Amnésia Retrógrada" id="1-amn-sia-retr-grada">
+                                <p>
+                                    <control>Características Principais:</control>
+                                </p>
+                                <list>
+                                    <li>Perda de memórias anteriores a um evento específico</li>
+                                    <li>Impossibilidade de recordar experiências precedentes a um incidente traumático
+                                    </li>
+                                </list>
+                                <p>
+                                    <control>Exemplo Clínico:</control>
+                                    Paciente que não recorda eventos pessoais ocorridos antes de um acidente grave
+                                </p>
+                            </chapter>
+                            <chapter title="2. Amnésia Anterógrada" id="2-amn-sia-anter-grada">
+                                <p>
+                                    <control>Características Principais:</control>
+                                </p>
+                                <list>
+                                    <li>Incapacidade de formar novas memórias após um evento específico</li>
+                                    <li>Bloqueio na absorção e criação de informações posteriores ao incidente</li>
+                                </list>
+                                <p>
+                                    <control>Impacto:</control>
+                                    Prejudica significativamente a capacidade de aprendizagem e adaptação
+                                </p>
+                            </chapter>
+                            <chapter title="3. Amnésia Localizada" id="3-amn-sia-localizada">
+                                <p>
+                                    <control>Características Principais:</control>
+                                </p>
+                                <list>
+                                    <li>Perda de memória limitada a um período ou evento específico</li>
+                                    <li>Memórias circunscritas a um contexto temporal restrito</li>
+                                </list>
+                                <p>
+                                    <control>Exemplo Típico:</control>
+                                    Lacuna de memória durante um acidente de carro
+                                </p>
+                            </chapter>
+                            <chapter title="4. Amnésia Seletiva" id="4-amn-sia-seletiva">
+                                <p>
+                                    <control>Características Principais:</control>
+                                </p>
+                                <list>
+                                    <li>Recordação parcial de memórias</li>
+                                    <li>Bloqueio de memórias específicas</li>
+                                </list>
+                                <p>
+                                    <control>Contexto Clínico:</control>
+                                    Frequente em veteranos de guerra ou sobreviventes de traumas
+                                </p>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Aspectos Psicológicos da Amnésia" id="aspectos-psicol-gicos-da-amn-sia">
+                            <chapter title="Amnésia Psicogênica ou Dissociativa"
+                                     id="amn-sia-psicog-nica-ou-dissociativa">
+                                <p>
+                                    <control>Definição:</control>
+                                    Incapacidade de recordar informações pessoais importantes como mecanismo de defesa
+                                    psicológico
+                                </p>
+                                <p>
+                                    <control>Características Principais:</control>
+                                </p>
+                                <list>
+                                    <li>Relacionada a experiências traumáticas ou estressantes</li>
+                                    <li>Bloqueio mnêmico para proteção emocional</li>
+                                </list>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Insights Neurológicos" id="insights-neurol-gicos">
+                            <chapter title="Estruturas Cerebrais Envolvidas" id="estruturas-cerebrais-envolvidas">
+                                <list type="decimal">
+                                    <li>
+                                        <p>
+                                            <control>Lobo Temporal Medial</control>
+                                        </p>
+                                        <list>
+                                            <li>Papel crucial na formação de memórias de longo prazo</li>
+                                            <li>Centro de processamento inicial de informações</li>
+                                        </list>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <control>Hipocampo</control>
+                                        </p>
+                                        <list>
+                                            <li>Fundamental no armazenamento inicial de memórias</li>
+                                            <li>Responsável pela transferência de informações para áreas neocorticais
+                                            </li>
+                                        </list>
+                                    </li>
+                                </list>
+                            </chapter>
+                            <chapter title="Processo de Armazenamento de Memórias"
+                                     id="processo-de-armazenamento-de-mem-rias">
+                                <tabs>
+                                    <tab title="Etapa Inicial">
+                                        - Armazenamento no hipocampo
+                                        - Processamento de informações temporárias
+                                    </tab>
+                                    <tab title="Etapa Subsequente">
+                                        - Transferência para áreas associativas neocorticais
+                                        - Consolidação de memórias de longo prazo
+                                    </tab>
+                                </tabs>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Estudo de Caso Paradigmático" id="estudo-de-caso-paradigm-tico">
+                            <chapter title="Perfil do Paciente" id="perfil-do-paciente">
+                                <p>
+                                    <control>Características Clínicas:</control>
+                                </p>
+                                <list>
+                                    <li>Perda de memórias pessoais e públicas após cirurgia</li>
+                                    <li>Perda de memórias de aproximadamente 3 anos anteriores</li>
+                                    <li>Manutenção de memórias da infância</li>
+                                </list>
+                                <p>
+                                    <control>Aspectos Cognitivos Preservados:</control>
+                                </p>
+                                <list>
+                                    <li>Memória de trabalho intacta</li>
+                                    <li>Comprometimento específico de memória de longo prazo</li>
+                                </list>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Conclusão Fundamental" id="conclus-o-fundamental">
+                            <tip>
+                                <p>A memória não é armazenada em uma única estrutura cerebral, mas resulta de uma
+                                    complexa colaboração entre múltiplas regiões cerebrais.</p>
+                            </tip>
+                            <chapter title="Pontos-Chave" id="pontos-chave">
+                                <list>
+                                    <li>Múltiplas áreas cerebrais participam da aquisição de memórias</li>
+                                    <li>Lobo temporal e hipocampo são fundamentais na formação mnemônica</li>
+                                    <li>Cada tipo de amnésia revela diferentes mecanismos de processamento cerebral</li>
+                                </list>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Referências Recomendadas" id="refer-ncias-recomendadas" collapsible="true"
+                                 default-state="collapsed">
+                            <list>
+                                <li>Tratados de Neuropsicologia</li>
+                                <li>Publicações especializadas em Neurociência Cognitiva</li>
+                                <li>Journals de Estudos de Memória e Cognição</li>
+                            </list>
+                        </chapter>
+                    </p>
+                </tab>
+                <tab title="Pensamento">
+                    <p><title>
+                        Pensamento
+                    </title>
+                        <chapter title="Pensamento, Organização Mental e Bases Neurológicas"
+                                 id="pensamento-organiza-o-mental-e-bases-neurol-gicas">
+                            <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&amp;w=1931&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                 alt="Human Brain Neuroscience"/>
+                        </chapter>
+                        <chapter title="Natureza do Pensamento" id="natureza-do-pensamento">
+                            <p>O pensamento representa uma sofisticada capacidade cerebral de:</p>
+                            <list>
+                                <li>Formular e evocar ideias</li>
+                                <li>Processar experiências complexas</li>
+                                <li>Relacionar conceitos abstratos</li>
+                            </list>
+                            <chapter title="Origens do Pensamento" id="origens-do-pensamento">
+                                <list type="decimal">
+                                    <li>
+                                        <control>Experiências Prévias</control>
+                                    </li>
+                                    <li>
+                                        <control>Criatividade Individual</control>
+                                    </li>
+                                    <li>
+                                        <control>Habilidade de Relacionamento Conceitual</control>
+                                    </li>
+                                    <li>
+                                        <control>Capacidade de Julgamento e Invenção</control>
+                                    </li>
+                                </list>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Características das Imagens Mentais" id="caracter-sticas-das-imagens-mentais">
+                            <chapter title="Formação e Origem" id="forma-o-e-origem">
+                                <list>
+                                    <li>Surgimento espontâneo e voluntário</li>
+                                    <li>Fundamentadas em:
+                                        <list>
+                                            <li>Conceitos sobre objetos</li>
+                                            <li>Significados das experiências</li>
+                                            <li>Memórias consolidadas</li>
+                                        </list>
+                                    </li>
+                                </list>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Processos Mentais Interessantes" id="processos-mentais-interessantes">
+                            <chapter title="Resolução de Problemas Durante o Sono"
+                                     id="resolu-o-de-problemas-durante-o-sono">
+                                <p>
+                                    <control>Fenômeno Neurológico</control>
+                                    : O cérebro continua processando informações durante o estado de repouso
+                                </p>
+                                <chapter title="Exemplos Fascinantes" id="exemplos-fascinantes">
+                                    <list type="decimal">
+                                        <li>Recuperação de informações complexas</li>
+                                        <li>Composição musical involuntária</li>
+                                        <li>Soluções para desafios após período de sono</li>
+                                    </list>
+                                </chapter>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Áreas Cerebrais Envolvidas no Pensamento"
+                                 id="reas-cerebrais-envolvidas-no-pensamento">
+                            <chapter title="Córtex Pré-Frontal" id="c-rtex-pr-frontal">
+                                <img width="400" src="cortex_pre_frontal.jpg" alt="Brain Functional Areas"/>
+                                <p>
+                                    <control>Funções Principais:</control>
+                                </p>
+                                <list>
+                                    <li>Planejamento de ações</li>
+                                    <li>Avaliação de consequências futuras</li>
+                                    <li>Integração de informações sensoriais e emocionais</li>
+                                </list>
+                                <p>
+                                    <control>Objetivo Primordial</control>
+                                    : Produzir comportamentos adaptativos
+                                </p>
+                            </chapter>
+                            <chapter title="Córtex Sensorial: Integrações Específicas"
+                                     id="c-rtex-sensorial-integra-es-espec-ficas">
+                                <img width="400" src="cortex_sensorial.jpg" alt="Brain Functional Areas"/>
+                                <list type="decimal">
+                                    <li>
+                                        <p>
+                                            <control>Córtex Parietal</control>
+                                        </p>
+                                        <list>
+                                            <li>Interpretação de sensibilidade</li>
+                                        </list>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <control>Córtex Temporal</control>
+                                        </p>
+                                        <list>
+                                            <li>Percepção auditiva</li>
+                                            <li>Processamento de memória</li>
+                                        </list>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <control>Córtex Occipital</control>
+                                        </p>
+                                        <list>
+                                            <li>Percepção visual completa</li>
+                                        </list>
+                                    </li>
+                                </list>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Sistema Límbico: O Centro Emocional" id="sistema-l-mbico-o-centro-emocional">
+                            <img width="400" src="sistema_limbico.jpg" alt="Brain Functional Areas"/>
+                            <chapter title="Estruturas Fundamentais" id="estruturas-fundamentais">
+                                <list type="decimal">
+                                    <li>
+                                        <p>
+                                            <control>Amígdala</control>
+                                        </p>
+                                        <list>
+                                            <li>Identificação de perigos</li>
+                                            <li>Processamento emocional primário</li>
+                                        </list>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <control>Hipocampo</control>
+                                        </p>
+                                        <list>
+                                            <li>Integração memória-emoção</li>
+                                            <li>Consolidação de experiências emocionais</li>
+                                        </list>
+                                    </li>
+                                </list>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Bases Biológicas dos Transtornos Mentais"
+                                 id="bases-biol-gicas-dos-transtornos-mentais">
+                            <chapter title="Esquizofrenia: Um Estudo de Caso Neurológico"
+                                     id="esquizofrenia-um-estudo-de-caso-neurol-gico">
+                                <p>
+                                    <control>Características Neurobiológicas:</control>
+                                </p>
+                                <list>
+                                    <li>Desconexão entre hemisférios cerebrais</li>
+                                    <li>Hiperatividade dopaminérgica</li>
+                                    <li>Interpretações cognitivas distorcidas</li>
+                                </list>
+                                <p>
+                                    <control>Áreas Comprometidas:</control>
+                                </p>
+                                <list>
+                                    <li>Planejamento executivo</li>
+                                    <li>Processamento de memória</li>
+                                    <li>Percepção sensorial integrada</li>
+                                </list>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Conclusão" id="conclus-o">
+                            <tip>
+                                <p>O pensamento emerge como um processo multidimensional que integra experiências,
+                                    emoções, percepções sensoriais e criatividade.</p>
+                            </tip>
+                            <chapter title="Pontos-Chave" id="pontos-chave">
+                                <list>
+                                    <li>Múltiplas regiões cerebrais colaboram simultaneamente</li>
+                                    <li>Pensamento transcende simples processamento neural</li>
+                                    <li>Complexidade e adaptabilidade são marcas fundamentais</li>
+                                </list>
+                            </chapter>
+                        </chapter>
+                        <chapter title="Referências Recomendadas" id="refer-ncias-recomendadas" collapsible="true"
+                                 default-state="collapsed">
+                            <list>
+                                <li>Tratados de Neurociência Cognitiva</li>
+                                <li>Publicações especializadas em Neuropsicologia</li>
+                                <li>Journals de Estudos Cerebrais Avançados</li>
+                            </list>
+                        </chapter>
+                    </p>
+                </tab>
+            </tabs>
+        </chapter>
+    </chapter>
+</topic> 

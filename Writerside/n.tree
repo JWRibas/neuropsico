@@ -3,18 +3,11 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="n"
-                 name="Neuropsicologia "
-                 start-page="Section-Starting-Page.topic">
+                  name="Neuropsicologia "
+                  start-page="Section-Starting-Page.topic">
 
     <toc-element topic="Section-Starting-Page.topic">
-        <toc-element topic="Section-Starting-Page_2.topic"/>
-    </toc-element>
-    <toc-element topic="Empty-MD-Topic.md">
-        <toc-element topic="starter.md"/>
-        <toc-element topic="Memória-de-Curto-Prazo-e-Classificações-da-Memória.md">
-        </toc-element>
-        <toc-element topic="Memória-de-Curto-Prazo-Parte-2.md"/>
-        <toc-element topic="Pensamento.md"/>
+        <toc-element topic="Materias.topic"/>
     </toc-element>
     <toc-element topic="Aulas-presenciais.md"/>
     <toc-element topic="Estudos-de-Casos.md"/>

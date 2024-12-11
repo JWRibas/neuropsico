@@ -18,4 +18,28 @@
         <description>Created after removal of "Matérias" from Neuropsicologia</description>
         <accepts>Materias.html</accepts>
     </rule>
+    <rule id="32cdb93a">
+        <description>Created after removal of "Matérias" from Neuropsicologia</description>
+        <accepts>Section-Starting-Page_2.html</accepts>
+    </rule>
+    <rule id="1d9bd0d3">
+        <description>Created after removal of "Memória e Aprendizagem" from Neuropsicologia</description>
+        <accepts>starter.html</accepts>
+    </rule>
+    <rule id="20765ef">
+        <description>Created after removal of "Memória de Curto Prazo - Parte 1" from Neuropsicologia</description>
+        <accepts>Memória-de-Curto-Prazo-e-Classificações-da-Memória.html</accepts>
+    </rule>
+    <rule id="7d9f80f3">
+        <description>Created after removal of "Memória de Curto Prazo - Parte 2" from Neuropsicologia</description>
+        <accepts>Memória-de-Curto-Prazo-Parte-2.html</accepts>
+    </rule>
+    <rule id="27061a25">
+        <description>Created after removal of "Pensamento" from Neuropsicologia</description>
+        <accepts>Pensamento.html</accepts>
+    </rule>
+    <rule id="3d8e60d7">
+        <description>Created after removal of "Neurofisiologia" from Neuropsicologia</description>
+        <accepts>Empty-MD-Topic.html</accepts>
+    </rule>
 </rules>
