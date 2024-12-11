@@ -14,4 +14,8 @@
         <description>Created after removal of "Topic title" from Neuropsicologia</description>
         <accepts>neuro.html</accepts>
     </rule>
+    <rule id="69ff61f1">
+        <description>Created after removal of "Matérias" from Neuropsicologia</description>
+        <accepts>Materias.html</accepts>
+    </rule>
 </rules>
