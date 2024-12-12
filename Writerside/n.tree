@@ -5,15 +5,6 @@
                   name="Neuropsicologia"
                   start-page="Section-Starting-Page.topic">
 
-    <!-- Adiciona o cabeçalho global contendo a barra de busca -->
-    <header>
-        <title>Cabeçalho Principal</title>
-        <content>
-            <!-- Aqui está o container que será preenchido pelo Algolia -->
-            <div id="search"></div>
-        </content>
-    </header>
-
     <toc-element topic="Section-Starting-Page.topic">
     </toc-element>
     <toc-element topic="Aulas-online.md">

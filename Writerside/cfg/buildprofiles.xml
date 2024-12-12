@@ -5,7 +5,13 @@
 
     <build-profile instance="n">
         <variables>
-            <noindex-content>true</noindex-content>
+            <algolia-id>J6S4WZ4YMX</algolia-id>
+            <algolia-index>docs_index</algolia-index>
+            <algolia-api-key>8e6a824e3afe1ca5d3c8c37ea3844551</algolia-api-key>
+            <algolia-show-logo>true</algolia-show-logo>
+            <primary-color>purple</primary-color>
+            <header-logo>logo.png</header-logo>
+            <search-scope>project</search-scope>
         </variables>
 
         <!-- Adicionando os recursos de Algolia -->
