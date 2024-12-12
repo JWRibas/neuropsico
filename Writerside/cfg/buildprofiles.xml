@@ -13,23 +13,5 @@
             <header-logo>logo.png</header-logo>
             <search-scope>project</search-scope>
         </variables>
-
-        <!-- Adicionando os recursos de Algolia -->
-        <include-resources>
-            <!-- Algolia Docsearch CSS -->
-            <resource href="https://cdn.jsdelivr.net/npm/@docsearch/css@3" type="style" />
-            <!-- Algolia Docsearch JavaScript -->
-            <resource href="https://cdn.jsdelivr.net/npm/@docsearch/js@3" type="script" />
-        </include-resources>
-
-        <!-- Script JS de inicialização do Algolia DocSearch -->
-        <script>
-            docsearch({
-            container: '#search', <!-- Local onde aparecerá a barra de busca -->
-            appId: 'SEU_ALGOLIA_APP_ID', <!-- Substitua para fins locais de teste -->
-            apiKey: 'SUA_API_KEY', <!-- Substitua para fins locais de teste -->
-            indexName: 'SEU_INDICE_ALGOLIA' <!-- Substitua para fins locais de teste -->
-            });
-        </script>
     </build-profile>
 </buildprofiles>
