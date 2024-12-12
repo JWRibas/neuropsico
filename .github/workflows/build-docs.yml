@@ -105,10 +105,20 @@ jobs:
               -H "X-Algolia-Application-Id: ${{ env.ALGOLIA_APP_NAME }}" \
               "https://${{ env.ALGOLIA_APP_NAME }}.algolia.net/1/indexes/${{ env.ALGOLIA_INDEX_NAME }}/settings" \
               -d '{
-                "searchableAttributes": ["title", "h1", "h2", "h3", "h4", "content", "text"],
+                "searchableAttributes": ["title", "h1", "h2", "h3", "h4", "content", "text", "chapter", "list", "tab", "topic", "p", "a", "video", "img", "src", "href"],
                 "attributesForFaceting": ["product", "version"],
                 "queryLanguages": ["pt"],
-                "ignorePlurals": true
+                "ignorePlurals": true,
+                "attributesToHighlight": ["title", "h1", "h2", "h3", "h4", "content", "text", "chapter", "list", "tab", "topic", "p", "a", "video", "img", "src", "href"],
+                "highlightPreTag": "<mark>",
+                "highlightPostTag": "</mark>",
+                "snippetEllipsisText": "...",
+                "attributesToSnippet": ["content:50"],
+                "distinct": true,
+                "advancedSyntax": true,
+                "typoTolerance": true,
+                "removeWordsIfNoResults": "allOptional",
+                "ranking": ["typo", "geo", "words", "filters", "proximity", "attribute", "exact", "custom"]
               }'
 
             # Atualiza o índice principal
@@ -123,6 +133,22 @@ jobs:
 
             sleep 10
 
+            # Configura o índice de sugestões
+            curl -X PUT \
+              -H "X-Algolia-API-Key: ${{ secrets.ALGOLIA_KEY }}" \
+              -H "X-Algolia-Application-Id: ${{ env.ALGOLIA_APP_NAME }}" \
+              "https://${{ env.ALGOLIA_APP_NAME }}.algolia.net/1/indexes/${{ env.ALGOLIA_SUGGESTIONS_INDEX }}/settings" \
+              -d '{
+                "searchableAttributes": ["query"],
+                "attributesToHighlight": ["query"],
+                "attributesToRetrieve": ["query"],
+                "distinct": 1,
+                "minWordSizefor1Typo": 4,
+                "minWordSizefor2Typos": 8,
+                "hitsPerPage": 5,
+                "queryLanguages": ["pt"]
+              }'
+
             # Atualiza as sugestões
             env "algolia-key=${{ secrets.ALGOLIA_KEY }}" java -jar /opt/builder/help-publication-agent.jar \
             update-suggestions \
@@ -132,8 +158,8 @@ jobs:
             --min-hits 1 \
             --min-letters 3 \
             --generate-from-facets product,version \
-            --attributes-to-retrieve query,objectID,url,content,title,h1,h2,h3,h4,text \
-            --searchable-attributes query,objectID,url,content,title,h1,h2,h3,h4,text \
+            --attributes-to-retrieve title,h1,h2,h3,h4,content,text \
+            --searchable-attributes title,h1,h2,h3,h4,content,text \
             2>&1 | tee algolia-update-suggestions-log.txt
           fi
 
