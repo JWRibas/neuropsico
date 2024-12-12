@@ -17,6 +17,12 @@
             <algolia-min-letters>3</algolia-min-letters>
             <algolia-min-hits>1</algolia-min-hits>
             <algolia-suggestions-count>5</algolia-suggestions-count>
+            <algolia-facets>product,version</algolia-facets>
+            <algolia-searchable-attributes>query,objectID,url,content,title</algolia-searchable-attributes>
+            <algolia-attributes-to-retrieve>query,objectID,url,content,title</algolia-attributes-to-retrieve>
+            <algolia-ignore-plurals>true</algolia-ignore-plurals>
+            <algolia-query-languages>pt</algolia-query-languages>
+            <algolia-advanced-syntax>false</algolia-advanced-syntax>
         </variables>
     </build-profile>
 </buildprofiles>
