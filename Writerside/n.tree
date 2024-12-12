@@ -10,6 +10,7 @@
     </toc-element>
     <toc-element topic="Aulas-online.md">
         <toc-element topic="Materias.topic"/>
+        <toc-element topic="Neuroanatomia-Clinica.topic"/>
     </toc-element>
     <toc-element topic="Aulas-presenciais.md"/>
     <toc-element topic="Estudos-de-Casos.md"/>
