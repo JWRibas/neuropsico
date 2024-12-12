@@ -88,6 +88,7 @@ jobs:
             echo "ALGOLIA_KEY secret is not set in GitHub Secrets"
             exit 1
           else
+            # Primeiro, atualiza o índice principal
             env "algolia-key=${{ secrets.ALGOLIA_KEY }}" java -jar /opt/builder/help-publication-agent.jar \
             update-index \
             --application-name ${{ env.ALGOLIA_APP_NAME }} \
@@ -97,11 +98,17 @@ jobs:
             --index-directory algolia-indexes/ \
             2>&1 | tee algolia-update-index-log.txt
 
+            # Aguarda um pouco para garantir que o índice principal foi atualizado
+            sleep 10
+
+            # Depois, gera as sugestões
             env "algolia-key=${{ secrets.ALGOLIA_KEY }}" java -jar /opt/builder/help-publication-agent.jar \
             update-suggestions \
             --application-name ${{ env.ALGOLIA_APP_NAME }} \
             --index-name ${{ env.ALGOLIA_SUGGESTIONS_INDEX }} \
             --source-index ${{ env.ALGOLIA_INDEX_NAME }} \
+            --min-hits 1 \
+            --min-letters 3 \
             2>&1 | tee algolia-update-suggestions-log.txt
           fi
 

@@ -14,6 +14,9 @@
             <search-scope>project</search-scope>
             <algolia-suggestions>true</algolia-suggestions>
             <algolia-suggestions-index>docs_index_query_suggestions</algolia-suggestions-index>
+            <algolia-min-letters>3</algolia-min-letters>
+            <algolia-min-hits>1</algolia-min-hits>
+            <algolia-suggestions-count>5</algolia-suggestions-count>
         </variables>
     </build-profile>
 </buildprofiles>
