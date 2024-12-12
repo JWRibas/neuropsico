@@ -15,10 +15,8 @@
             <algolia-logo-placement>bottom-right</algolia-logo-placement>
             <algolia-logo-style>light</algolia-logo-style>
             <primary-color>purple</primary-color>
-            <header-logo>logo.png</header-logo>
             <search-scope>project</search-scope>
-            <algolia-suggestions>true</algolia-suggestions>
-            <algolia-suggestions-index>docs_index_query_suggestions</algolia-suggestions-index>
+            <algolia-suggestions>false</algolia-suggestions>
             <algolia-min-letters>3</algolia-min-letters> 
             <algolia-min-hits>1</algolia-min-hits>
             <algolia-suggestions-count>5</algolia-suggestions-count>
@@ -50,24 +48,6 @@
             <resource type="image" url="https://www.algolia.com/assets/algolia-blue-mark.svg" id="algolia-logo"/>
         </resources>
 
-        <custom-css>
-            .algolia-logo {
-                position: fixed;
-                bottom: 20px;
-                right: 20px;
-                z-index: 1000;
-            }
-            .algolia-powered-by {
-                font-size: 12px;
-                color: #5468ff;
-                text-decoration: none;
-                display: flex;
-                align-items: center;
-            }
-            .algolia-powered-by img {
-                height: 16px;
-                margin-left: 4px;
-            }
-        </custom-css>
+
     </build-profile>
 </buildprofiles>
