@@ -1,4 +1,4 @@
-name: Build and deploy documentation
+name: Build and deploy documentation with Algolia Search
 
 on:
   push:
@@ -11,7 +11,7 @@ permissions:
   pages: write
 
 env:
-  INSTANCE: 'Writerside/n'  # Instância corrigida para "n" (de acordo com o ajuste anterior)
+  INSTANCE: 'Writerside/n'
   DOCKER_VERSION: '243.21565'
 
 jobs:
@@ -34,12 +34,10 @@ jobs:
           ARTIFACT="webHelp${INSTANCE_ID_UPPER}2-all.zip"
           ALGOLIA_ARTIFACT="algolia-indexes-${INSTANCE_ID_UPPER}.zip"
 
-          # Print the values
           echo "INSTANCE_ID_UPPER: $INSTANCE_ID_UPPER"
           echo "ARTIFACT: $ARTIFACT"
           echo "ALGOLIA_ARTIFACT: $ALGOLIA_ARTIFACT"
 
-          # Set the environment variables and outputs
           echo "INSTANCE_ID_UPPER=$INSTANCE_ID_UPPER" >> $GITHUB_ENV
           echo "ARTIFACT=$ARTIFACT" >> $GITHUB_ENV
           echo "ALGOLIA_ARTIFACT=$ALGOLIA_ARTIFACT" >> $GITHUB_ENV
@@ -63,8 +61,23 @@ jobs:
             artifacts/${{ env.ALGOLIA_ARTIFACT }}
           retention-days: 7
 
-  deploy:
+  publish-algolia:
     needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Algolia artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: docs
+          path: artifacts
+
+      - name: Publish Algolia Search Indexes
+        env:
+          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_KEY }}
+        run: ./gradlew writerside:publishIndexes --args="artifacts/${{ needs.build.outputs.algolia_artifact }}"
+
+  deploy:
+    needs: [build, publish-algolia]
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

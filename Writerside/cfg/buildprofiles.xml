@@ -3,11 +3,34 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
+    <variables>
+        <algolia-id>J6S4WZ4YMX</algolia-id>
+        <algolia-index>8e6a824e3afe1ca5d3c8c37ea3844551</algolia-index>
+        <algolia-api-key>864501c2a82831b0d2683c3c5fc5e903</algolia-api-key>
+        <algolia-show-logo>true</algolia-show-logo>
+    </variables>
+
     <build-profile instance="n">
         <variables>
             <noindex-content>true</noindex-content>
         </variables>
-    </build-profile>
 
+        <!-- Adicionando os recursos de Algolia -->
+        <include-resources>
+            <!-- Algolia Docsearch CSS -->
+            <resource href="https://cdn.jsdelivr.net/npm/@docsearch/css@3" type="style" />
+            <!-- Algolia Docsearch JavaScript -->
+            <resource href="https://cdn.jsdelivr.net/npm/@docsearch/js@3" type="script" />
+        </include-resources>
+
+        <!-- Script JS de inicialização do Algolia Docsearch -->
+        <script>
+            docsearch({
+            container: '#search', <!-- Local onde aparecerá a barra de busca -->
+            appId: '${algolia-id}', <!-- Substituído pelo ID configurado nas variáveis -->
+            apiKey: '${algolia-api-key}', <!-- Substituído pela chave configurada -->
+            indexName: '${algolia-index}' <!-- Nome do índice Algolia -->
+            });
+        </script>
+    </build-profile>
 </buildprofiles>

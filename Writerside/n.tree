@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE instance-profile
-        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+<!DOCTYPE instance-profile SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="n"
-                  name="Neuropsicologia "
+                  name="Neuropsicologia"
                   start-page="Section-Starting-Page.topic">
+
+    <!-- Adiciona o cabeçalho global contendo a barra de busca -->
+    <header>
+        <title>Cabeçalho Principal</title>
+        <content>
+            <!-- Aqui está o container que será preenchido pelo Algolia -->
+            <div id="search"></div>
+        </content>
+    </header>
 
     <toc-element topic="Section-Starting-Page.topic">
     </toc-element>
