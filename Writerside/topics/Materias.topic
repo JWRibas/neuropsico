@@ -2,10 +2,11 @@
 <!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       id="Materias" title="Matérias">
+       id="Materias" title="Neurofisiologia">
 
-    <chapter title="Neurofisiologia" id="neurofisiologia">
-        <chapter title="Ciclo 1" id="ciclo-1">
+    <chapter title="Aprendizagem e Memória; Pensamento" id="neurofisiologia">
+        <img src="neurofisio_aprend.png" alt="objciclo1"/>
+        <chapter title="" id="">
             <tabs>
                 <tab title="Memória e Aprendizagem">
                     <title>Memória e Aprendizagem</title>
@@ -809,4 +810,20 @@
             </tabs>
         </chapter>
     </chapter>
+    <chapter title="Dor e Comportamento emocional" id="neurofisiologia2"> </chapter>
+            <img src="ciclo2neurofisio.png" alt="objciclo2"/>
+    <tabs>
+        <tab title="Fisiologia da dor">
+            <title>Fisiologia da dor</title>
+        </tab>
+        <tab title="Fisiologia da dor - Parte 2">
+            <title>Fisiologia da dor - Parte 2</title>
+        </tab>
+        <tab title="Sistema Límbico - Parte 1">
+            <title>Sistema Límbico - Parte 1</title>
+        </tab>
+        <tab title="Sistema Límbico - Parte 2">
+            <title>Sistema Límbico - Parte 2</title>
+        </tab>
+    </tabs>
 </topic> 
