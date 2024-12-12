@@ -105,11 +105,29 @@ jobs:
               -H "X-Algolia-Application-Id: ${{ env.ALGOLIA_APP_NAME }}" \
               "https://${{ env.ALGOLIA_APP_NAME }}.algolia.net/1/indexes/${{ env.ALGOLIA_INDEX_NAME }}/settings" \
               -d '{
-                "searchableAttributes": ["title", "h1", "h2", "h3", "h4", "content", "text", "chapter", "list", "tab", "topic", "p", "a", "video", "img", "src", "href"],
-                "attributesForFaceting": ["product", "version"],
+                "searchableAttributes": [
+                  "unordered(title)",
+                  "unordered(h1)",
+                  "unordered(h2)",
+                  "unordered(h3)",
+                  "unordered(h4)",
+                  "unordered(content)",
+                  "unordered(text)",
+                  "unordered(chapter)",
+                  "unordered(list)",
+                  "unordered(tab)",
+                  "unordered(topic)",
+                  "unordered(p)",
+                  "unordered(a)",
+                  "unordered(video)",
+                  "unordered(img)",
+                  "unordered(src)",
+                  "unordered(href)"
+                ],
+                "attributesForFaceting": ["searchable(product)", "searchable(version)"],
                 "queryLanguages": ["pt"],
                 "ignorePlurals": true,
-                "attributesToHighlight": ["title", "h1", "h2", "h3", "h4", "content", "text", "chapter", "list", "tab", "topic", "p", "a", "video", "img", "src", "href"],
+                "attributesToHighlight": ["*"],
                 "highlightPreTag": "<mark>",
                 "highlightPostTag": "</mark>",
                 "snippetEllipsisText": "...",
@@ -118,7 +136,13 @@ jobs:
                 "advancedSyntax": true,
                 "typoTolerance": true,
                 "removeWordsIfNoResults": "allOptional",
-                "ranking": ["typo", "geo", "words", "filters", "proximity", "attribute", "exact", "custom"]
+                "ranking": ["typo", "geo", "words", "filters", "proximity", "attribute", "exact", "custom"],
+                "customRanking": ["desc(importance)", "asc(position)"],
+                "separatorsToIndex": "_",
+                "allowTyposOnNumericTokens": false,
+                "minWordSizefor1Typo": 4,
+                "minWordSizefor2Typos": 8,
+                "hitsPerPage": 20
               }'
 
             # Atualiza o índice principal

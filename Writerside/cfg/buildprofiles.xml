@@ -9,6 +9,11 @@
             <algolia-index>docs_index</algolia-index>
             <algolia-api-key>8e6a824e3afe1ca5d3c8c37ea3844551</algolia-api-key>
             <algolia-show-logo>true</algolia-show-logo>
+            <algolia-powered-by>true</algolia-powered-by>
+            <algolia-attribution>true</algolia-attribution>
+            <show-powered-by>true</show-powered-by>
+            <algolia-logo-placement>bottom-right</algolia-logo-placement>
+            <algolia-logo-style>light</algolia-logo-style>
             <primary-color>purple</primary-color>
             <header-logo>logo.png</header-logo>
             <search-scope>project</search-scope>
@@ -18,14 +23,14 @@
             <algolia-min-hits>1</algolia-min-hits>
             <algolia-suggestions-count>5</algolia-suggestions-count>
             <algolia-facets>product,version</algolia-facets>
-            <algolia-searchable-attributes>title,h1,h2,h3,h4,content,text</algolia-searchable-attributes>
-            <algolia-attributes-to-retrieve>title,h1,h2,h3,h4,content,text</algolia-attributes-to-retrieve>
+            <algolia-searchable-attributes>title,h1,h2,h3,h4,content,text,chapter,list,tab,topic,p,a,video,img,src,href</algolia-searchable-attributes>
+            <algolia-attributes-to-retrieve>title,h1,h2,h3,h4,content,text,chapter,list,tab,topic,p,a,video,img,src,href</algolia-attributes-to-retrieve>
             <algolia-ignore-plurals>true</algolia-ignore-plurals>
             <algolia-query-languages>pt</algolia-query-languages>
-            <algolia-advanced-syntax>false</algolia-advanced-syntax>
-            <algolia-powered-by>true</algolia-powered-by>
-            <algolia-attribution>true</algolia-attribution>
-            <show-powered-by>true</show-powered-by>
+            <algolia-advanced-syntax>true</algolia-advanced-syntax>
+            <search-input-placeholder>Buscar na documentação...</search-input-placeholder>
+            <search-title>Resultados da busca</search-title>
+            <search-no-results-message>Nenhum resultado encontrado</search-no-results-message>
         </variables>
 
         <build-profile-attributes>
@@ -34,12 +39,35 @@
             <algolia-search-css>true</algolia-search-css>
             <enable-browser-search>true</enable-browser-search>
             <enable-search>true</enable-search>
+            <allow-search-autocomplete>true</allow-search-autocomplete>
         </build-profile-attributes>
 
         <resources>
             <resource type="js" url="https://cdn.jsdelivr.net/npm/algoliasearch@4.14.2/dist/algoliasearch-lite.umd.js"/>
             <resource type="js" url="https://cdn.jsdelivr.net/npm/instantsearch.js@4.49.1/dist/instantsearch.production.min.js"/>
             <resource type="css" url="https://cdn.jsdelivr.net/npm/instantsearch.css@7.4.5/themes/satellite-min.css"/>
+            <resource type="css" url="https://cdn.jsdelivr.net/npm/@docsearch/css@3"/>
+            <resource type="image" url="https://www.algolia.com/assets/algolia-blue-mark.svg" id="algolia-logo"/>
         </resources>
+
+        <custom-css>
+            .algolia-logo {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                z-index: 1000;
+            }
+            .algolia-powered-by {
+                font-size: 12px;
+                color: #5468ff;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+            }
+            .algolia-powered-by img {
+                height: 16px;
+                margin-left: 4px;
+            }
+        </custom-css>
     </build-profile>
 </buildprofiles>
