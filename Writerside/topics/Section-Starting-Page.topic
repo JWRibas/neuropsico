@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic
-        SYSTEM >
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Principal" id="Section-Starting-Page">
 
+    <p>Material de Apoio para Pós-Graduação em Neuropsicologia</p>
 
     <section-starting-page>
         <title>Material de Apoio</title>
         <description>
             Pós-Graduação em Neuropsicologia - FAPSI.
         </description>
+
         <spotlight>
-            <a href="Aulas-online.md" type="library" summary="Resumo de Modulos e Materiais fornecidos nas aulas online ">Aulas online</a>
+            <a href="Aulas-online.md" type="library" summary="Resumo de Modulos e Materiais fornecidos nas aulas online">Aulas online</a>
             <a href="Aulas-presenciais.md" type="learn" summary="Resumo de Aulas e Materiais fornecidos em aulas presenciais">Aulas presenciais</a>
         </spotlight>
 
@@ -21,9 +22,13 @@
             <a href="Estudos-de-Casos.md" summary="Estudos de Casos efetuados durante o curso">Estudo de Caso</a>
         </primary>
 
-
-
-
+        <misc>
+            <cards>
+                <title>Tópicos Principais</title>
+                <card href="Neuroanatomia-Clinica.topic" title="Neuroanatomia"/>
+                <card href="Materias.topic" title="Matérias"/>
+            </cards>
+        </misc>
     </section-starting-page>
 
 </topic>

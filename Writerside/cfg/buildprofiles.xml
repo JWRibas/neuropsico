@@ -18,11 +18,19 @@
             <algolia-min-hits>1</algolia-min-hits>
             <algolia-suggestions-count>5</algolia-suggestions-count>
             <algolia-facets>product,version</algolia-facets>
-            <algolia-searchable-attributes>query,objectID,url,content,title</algolia-searchable-attributes>
-            <algolia-attributes-to-retrieve>query,objectID,url,content,title</algolia-attributes-to-retrieve>
+            <algolia-searchable-attributes>query,objectID,url,content,title,h1,h2,h3,h4,text</algolia-searchable-attributes>
+            <algolia-attributes-to-retrieve>query,objectID,url,content,title,h1,h2,h3,h4,text</algolia-attributes-to-retrieve>
             <algolia-ignore-plurals>true</algolia-ignore-plurals>
             <algolia-query-languages>pt</algolia-query-languages>
             <algolia-advanced-syntax>false</algolia-advanced-syntax>
+            <algolia-powered-by>true</algolia-powered-by>
+            <algolia-attribution>true</algolia-attribution>
         </variables>
+
+        <build-profile-attributes>
+            <algolia-search>true</algolia-search>
+            <algolia-search-js>true</algolia-search-js>
+            <algolia-search-css>true</algolia-search-css>
+        </build-profile-attributes>
     </build-profile>
 </buildprofiles>

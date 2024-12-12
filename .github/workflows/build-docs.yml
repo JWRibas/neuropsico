@@ -92,7 +92,24 @@ jobs:
             curl -X DELETE \
               -H "X-Algolia-API-Key: ${{ secrets.ALGOLIA_KEY }}" \
               -H "X-Algolia-Application-Id: ${{ env.ALGOLIA_APP_NAME }}" \
+              "https://${{ env.ALGOLIA_APP_NAME }}.algolia.net/1/indexes/${{ env.ALGOLIA_INDEX_NAME }}"
+
+            curl -X DELETE \
+              -H "X-Algolia-API-Key: ${{ secrets.ALGOLIA_KEY }}" \
+              -H "X-Algolia-Application-Id: ${{ env.ALGOLIA_APP_NAME }}" \
               "https://${{ env.ALGOLIA_APP_NAME }}.algolia.net/1/indexes/${{ env.ALGOLIA_SUGGESTIONS_INDEX }}"
+
+            # Configura o índice principal
+            curl -X PUT \
+              -H "X-Algolia-API-Key: ${{ secrets.ALGOLIA_KEY }}" \
+              -H "X-Algolia-Application-Id: ${{ env.ALGOLIA_APP_NAME }}" \
+              "https://${{ env.ALGOLIA_APP_NAME }}.algolia.net/1/indexes/${{ env.ALGOLIA_INDEX_NAME }}/settings" \
+              -d '{
+                "searchableAttributes": ["title", "h1", "h2", "h3", "h4", "content", "text"],
+                "attributesForFaceting": ["product", "version"],
+                "queryLanguages": ["pt"],
+                "ignorePlurals": true
+              }'
 
             # Atualiza o índice principal
             env "algolia-key=${{ secrets.ALGOLIA_KEY }}" java -jar /opt/builder/help-publication-agent.jar \
@@ -115,8 +132,8 @@ jobs:
             --min-hits 1 \
             --min-letters 3 \
             --generate-from-facets product,version \
-            --attributes-to-retrieve query,objectID,url,content,title \
-            --searchable-attributes query,objectID,url,content,title \
+            --attributes-to-retrieve query,objectID,url,content,title,h1,h2,h3,h4,text \
+            --searchable-attributes query,objectID,url,content,title,h1,h2,h3,h4,text \
             2>&1 | tee algolia-update-suggestions-log.txt
           fi
 
