@@ -12,6 +12,8 @@
             <primary-color>purple</primary-color>
             <header-logo>logo.png</header-logo>
             <search-scope>project</search-scope>
+            <algolia-suggestions>true</algolia-suggestions>
+            <algolia-suggestions-index>docs_index_query_suggestions</algolia-suggestions-index>
         </variables>
     </build-profile>
 </buildprofiles>
