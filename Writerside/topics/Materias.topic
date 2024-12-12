@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
-<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns=""
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        id="Materias" title="Neurofisiologia">
 
@@ -166,22 +166,6 @@
                                 <li>Significativas variações individuais e contextuais</li>
                             </list>
                             <p>Fundamental para aprendizagem e comportamento adaptativo.</p>
-                        </chapter>
-                        <chapter title="Referências" id="refer-ncias">
-                            <list>
-                                <li>Arquivos de pesquisas neuropsicológicas</li>
-                                <li>Estudos contemporâneos sobre memória</li>
-                                <li>Publicações de neurociência cognitiva</li>
-                            </list>
-                        </chapter>
-                        <chapter title="Recursos Adicionais" id="recursos-adicionais" collapsible="true"
-                                 default-state="collapsed">
-                            <p>Para uma exploração mais aprofundada dos mecanismos de memória, considere consultar:</p>
-                            <list>
-                                <li>Livros avançados de neurociência</li>
-                                <li>Revistas especializadas de psicologia cognitiva</li>
-                                <li>Bases de dados de pesquisa acadêmica</li>
-                            </list>
                         </chapter>
 
                     </p>
@@ -452,14 +436,7 @@
                                 </list>
                             </chapter>
                         </chapter>
-                        <chapter title="Referências Recomendadas" id="refer-ncias-recomendadas" collapsible="true"
-                                 default-state="collapsed">
-                            <list>
-                                <li>Tratados de Neurociência Cognitiva</li>
-                                <li>Publicações especializadas em Psicologia Cognitiva</li>
-                                <li>Journals de Neuropsicologia</li>
-                            </list>
-                        </chapter>
+
                     </p>
                 </tab>
                 <tab title="Memória de Curto Prazo - 2">
@@ -615,14 +592,7 @@
                                 </list>
                             </chapter>
                         </chapter>
-                        <chapter title="Referências Recomendadas" id="refer-ncias-recomendadas" collapsible="true"
-                                 default-state="collapsed">
-                            <list>
-                                <li>Tratados de Neuropsicologia</li>
-                                <li>Publicações especializadas em Neurociência Cognitiva</li>
-                                <li>Journals de Estudos de Memória e Cognição</li>
-                            </list>
-                        </chapter>
+
                     </p>
                 </tab>
                 <tab title="Pensamento">
@@ -797,16 +767,42 @@
                                 </list>
                             </chapter>
                         </chapter>
-                        <chapter title="Referências Recomendadas" id="refer-ncias-recomendadas" collapsible="true"
-                                 default-state="collapsed">
-                            <list>
-                                <li>Tratados de Neurociência Cognitiva</li>
-                                <li>Publicações especializadas em Neuropsicologia</li>
-                                <li>Journals de Estudos Cerebrais Avançados</li>
-                            </list>
-                        </chapter>
+
                     </p>
                 </tab>
+                <tab title="Textos Recomendados" id="referencias-recomendadas">
+                    <chapter title="📚 Textos Recomendados" id="referencias-recomendadas">
+                        <list>
+                            <li>
+                                <p>Aprendizagem e Memória – Contexto Motor</p>
+                                <p>Autores: C.S.C. Sá; C.C. Medalha</p>
+                                <p>Publicação: Rev. Neurociências; v.9, n.3, p 103-110, 2001</p>
+                                <a href="https://cdn-fapsi.s3.us-east-2.amazonaws.com/EAD-FAPSI/Aulas-Gravadas/NRBED/Neurofisiologia/Prof+Karina+Paes/Material+Extra/Ciclo+01/Aprendizagem-e-Memoria.pdf">Ler Agora</a>
+                            </li>
+                            <li>
+                                <p>Memória, Aprendizagem, Emoções e Inteligência</p>
+                                <p>Autores: A.B. Souza; T.D.M. Salgado</p>
+                                <p>Publicação: Revista Liberato, Novo Hamburgo, v. 16, n. 26, p. 101-220, jul./dez. 2015</p>
+                                <a href="https://cdn-fapsi.s3.us-east-2.amazonaws.com/EAD-FAPSI/Aulas-Gravadas/NRBED/Neurofisiologia/Prof+Karina+Paes/Material+Extra/Ciclo+01/Memoria-Aprendizagem-Emocoes.pdf">Ler Agora</a>
+                            </li>
+                        </list>
+
+                            <chapter title="🎥 Vídeos Recomendados" id="_vídeos_recomendados">
+                            <list>
+                            <li>
+                                <p>Memória | Ivan Izquierdo</p>
+                                <p>Explicação sobre o funcionamento da memória por um renomado neurocientista</p>
+                                <video src="https://www.youtube.com/watch?v=SbsJh-W-lDc"></video>
+                            </li>
+                            <li>
+                                <p>Como Funciona o Pensamento</p>
+                                <p>"Por que os alunos não gostam da escola?" (Daniel Willinghan)</p>
+                                <p>"A árvore do conhecimento" (Maturana e Varela)</p>
+                                <video src="https://www.youtube.com/watch?v=1jBQElSF6Dk"></video>
+                            </li>
+                        </list>
+                    </chapter>
+            </tab>
             </tabs>
         </chapter>
     </chapter>
