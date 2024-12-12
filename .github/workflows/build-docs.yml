@@ -88,16 +88,11 @@ jobs:
             echo "ALGOLIA_KEY secret is not set in GitHub Secrets"
             exit 1
           else
-            # Limpa os índices existentes
+            # Limpa o índice existente
             curl -X DELETE \
               -H "X-Algolia-API-Key: ${{ secrets.ALGOLIA_KEY }}" \
               -H "X-Algolia-Application-Id: ${{ env.ALGOLIA_APP_NAME }}" \
               "https://${{ env.ALGOLIA_APP_NAME }}.algolia.net/1/indexes/${{ env.ALGOLIA_INDEX_NAME }}"
-
-            curl -X DELETE \
-              -H "X-Algolia-API-Key: ${{ secrets.ALGOLIA_KEY }}" \
-              -H "X-Algolia-Application-Id: ${{ env.ALGOLIA_APP_NAME }}" \
-              "https://${{ env.ALGOLIA_APP_NAME }}.algolia.net/1/indexes/${{ env.ALGOLIA_SUGGESTIONS_INDEX }}"
 
             # Configura o índice principal
             curl -X PUT \
@@ -154,37 +149,6 @@ jobs:
             --version ${{ env.CONFIG_JSON_VERSION }} \
             --index-directory algolia-indexes/ \
             2>&1 | tee algolia-update-index-log.txt
-
-            sleep 10
-
-            # Configura o índice de sugestões
-            curl -X PUT \
-              -H "X-Algolia-API-Key: ${{ secrets.ALGOLIA_KEY }}" \
-              -H "X-Algolia-Application-Id: ${{ env.ALGOLIA_APP_NAME }}" \
-              "https://${{ env.ALGOLIA_APP_NAME }}.algolia.net/1/indexes/${{ env.ALGOLIA_SUGGESTIONS_INDEX }}/settings" \
-              -d '{
-                "searchableAttributes": ["query"],
-                "attributesToHighlight": ["query"],
-                "attributesToRetrieve": ["query"],
-                "distinct": 1,
-                "minWordSizefor1Typo": 4,
-                "minWordSizefor2Typos": 8,
-                "hitsPerPage": 5,
-                "queryLanguages": ["pt"]
-              }'
-
-            # Atualiza as sugestões
-            env "algolia-key=${{ secrets.ALGOLIA_KEY }}" java -jar /opt/builder/help-publication-agent.jar \
-            update-suggestions \
-            --application-name ${{ env.ALGOLIA_APP_NAME }} \
-            --index-name ${{ env.ALGOLIA_SUGGESTIONS_INDEX }} \
-            --source-index ${{ env.ALGOLIA_INDEX_NAME }} \
-            --min-hits 1 \
-            --min-letters 3 \
-            --generate-from-facets product,version \
-            --attributes-to-retrieve title,h1,h2,h3,h4,content,text \
-            --searchable-attributes title,h1,h2,h3,h4,content,text \
-            2>&1 | tee algolia-update-suggestions-log.txt
           fi
 
   deploy:
