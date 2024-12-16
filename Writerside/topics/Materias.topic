@@ -208,6 +208,7 @@
                             </chapter>
                             <chapter title="Base Neural" id="base-neural">
                                 <chapter title="Córtex Pré-Frontal" id="c-rtex-pr-frontal">
+                                    <img width="400" src="cortex_pre_frontal.jpg" alt="Brain Functional Areas"/>
                                     <list>
                                         <li>Especializado em resolução de problemas</li>
                                         <li>Fundamental para manutenção da atenção</li>
@@ -269,9 +270,9 @@
                             </chapter>
                             <chapter title="Estruturas Cerebrais Associadas" id="estruturas-cerebrais-associadas">
                                 <list>
-                                    <li>Lobo temporal medial</li>
-                                    <li>Hipocampo</li>
-                                    <li>Amígdala</li>
+                                    <li>Lobo temporal medial<img width="400" src="lobo_temporal.jpg" alt="Brain Functional Areas"/></li>
+                                    <li>Hipocampo<img width="400" src="hipocampo.jpg" alt="Brain Functional Areas"/></li>
+                                    <li>Amígdala<img width="400" src="Amigdala.jpg" alt="Brain Functional Areas"/></li>
                                 </list>
                             </chapter>
                             <chapter title="Subdivisões" id="subdivis-es_1">
@@ -395,6 +396,7 @@
                                     <li>
                                         <p>
                                             <control>Núcleos da Base e Cerebelo</control>
+                                            <img width="400" src="cerebelo.webp" alt="Brain Functional Areas"/>
                                         </p>
                                         <list>
                                             <li>Fundamentais para memória implícita</li>
