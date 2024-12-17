@@ -819,7 +819,9 @@
             <img src="ciclo2neurofisio.png" alt="objciclo2"/>
     <tabs>
         <tab title="Fisiologia da dor">
-            <p><title>Fisiologia da dor</title>
+            <p><title>
+                Fisiologia da dor
+            </title>
                 <chapter title="Visão Geral da Dor" id="pain-overview">
                     <p>A dor é uma experiência sensorial e emocional complexa e individual, caracterizada como uma experiência 
                     desagradável associada a possíveis lesões teciduais. Cada pessoa vivencia a dor de forma única, com 
@@ -1026,173 +1028,13 @@
             </p>
         </tab>
         <tab title="Fisiologia da dor - Parte 2">
-            <p><title>Fisiologia da dor - Parte 2</title>
-                <chapter title="Modulação da Dor" id="pain-modulation">
-                    <p>A percepção da dor pode ser modulada por diversos fatores neurológicos e psicológicos.</p>
-                    
-                    <chapter title="Mecanismos de Modulação" id="modulation-mechanisms">
-                        <tip>
-                            <p><control>Principais Mecanismos:</control></p>
-                            <list>
-                                <li>Controle descendente</li>
-                                <li>Modulação por opióides endógenos</li>
-                                <li>Influências psicológicas</li>
-                            </list>
-                        </tip>
-                    </chapter>
-                </chapter>
-
-                <chapter title="Sistema Opióide Endógeno" id="endogenous-opioid">
-                    <tabs>
-                        <tab title="Componentes">
-                            <chapter title="Elementos do Sistema" id="system-elements">
-                                <list>
-                                    <li>Encefalinas</li>
-                                    <li>Endorfinas</li>
-                                    <li>Dinorfinas</li>
-                                </list>
-                            </chapter>
-                        </tab>
-                        <tab title="Locais de Ação">
-                            <chapter title="Áreas de Atuação" id="action-areas">
-                                <list>
-                                    <li>Medula espinhal</li>
-                                    <li>Tronco encefálico</li>
-                                    <li>Sistema límbico</li>
-                                </list>
-                            </chapter>
-                        </tab>
-                    </tabs>
-                </chapter>
-
-                <chapter title="Aspectos Clínicos" id="clinical-aspects">
-                    <chapter title="Dor Aguda vs. Crônica" id="acute-vs-chronic">
-                        <tabs>
-                            <tab title="Dor Aguda">
-                                <list>
-                                    <li>Duração limitada</li>
-                                    <li>Função protetora</li>
-                                    <li>Resposta adaptativa</li>
-                                </list>
-                            </tab>
-                            <tab title="Dor Crônica">
-                                <list>
-                                    <li>Persistente</li>
-                                    <li>Impacto na qualidade de vida</li>
-                                    <li>Alterações comportamentais</li>
-                                </list>
-                            </tab>
-                        </tabs>
-                    </chapter>
-                </chapter>
-            </p>
+            <title>Fisiologia da dor - Parte 2</title>
         </tab>
         <tab title="Sistema Límbico - Parte 1">
-            <p><title>Sistema Límbico - Parte 1</title>
-                <chapter title="Visão Geral do Sistema Límbico" id="limbic-overview">
-                    <p>O sistema límbico é um conjunto de estruturas cerebrais responsável pelo processamento das emoções e comportamentos.</p>
-                    
-                    <chapter title="Componentes Principais" id="main-components">
-                        <tip>
-                            <p><control>Estruturas Fundamentais:</control></p>
-                            <list>
-                                <li>Amígdala <img width="300" src="Amigdala.jpg" alt="Amígdala"/></li>
-                                <li>Hipocampo <img width="300" src="hipocampo.jpg" alt="Hipocampo"/></li>
-                                <li>Hipotálamo</li>
-                                <li>Córtex cingulado</li>
-                            </list>
-                        </tip>
-                    </chapter>
-                </chapter>
-
-                <chapter title="Funções do Sistema Límbico" id="limbic-functions">
-                    <tabs>
-                        <tab title="Processamento Emocional">
-                            <chapter title="Regulação Emocional" id="emotional-regulation">
-                                <list>
-                                    <li>Reconhecimento de emoções</li>
-                                    <li>Resposta a estímulos emocionais</li>
-                                    <li>Modulação do comportamento</li>
-                                </list>
-                            </chapter>
-                        </tab>
-                        <tab title="Memória Emocional">
-                            <chapter title="Formação de Memórias" id="memory-formation">
-                                <list>
-                                    <li>Consolidação de experiências</li>
-                                    <li>Associação emoção-memória</li>
-                                    <li>Aprendizado emocional</li>
-                                </list>
-                            </chapter>
-                        </tab>
-                    </tabs>
-                </chapter>
-
-                <chapter title="Papel da Amígdala" id="amygdala-role">
-                    <chapter title="Funções Específicas" id="specific-functions">
-                        <tip>
-                            <p><control>Principais Atribuições:</control></p>
-                            <list>
-                                <li>Processamento do medo</li>
-                                <li>Avaliação de ameaças</li>
-                                <li>Respostas emocionais</li>
-                            </list>
-                        </tip>
-                    </chapter>
-                </chapter>
-            </p>
+            <title>Sistema Límbico - Parte 1</title>
         </tab>
         <tab title="Sistema Límbico - Parte 2">
-            <p><title>Sistema Límbico - Parte 2</title>
-                <chapter title="Circuitos Neurais do Sistema Límbico" id="neural-circuits">
-                    <chapter title="Conexões Principais" id="main-connections">
-                        <tip>
-                            <p><control>Vias de Comunicação:</control></p>
-                            <list>
-                                <li>Circuito de Papez</li>
-                                <li>Conexões amígdala-hipocampo</li>
-                                <li>Projeções hipotalâmicas</li>
-                            </list>
-                        </tip>
-                    </chapter>
-                </chapter>
-
-                <chapter title="Aspectos Comportamentais" id="behavioral-aspects">
-                    <tabs>
-                        <tab title="Comportamento Social">
-                            <chapter title="Interações Sociais" id="social-interactions">
-                                <list>
-                                    <li>Reconhecimento facial</li>
-                                    <li>Empatia</li>
-                                    <li>Vínculos afetivos</li>
-                                </list>
-                            </chapter>
-                        </tab>
-                        <tab title="Comportamento Emocional">
-                            <chapter title="Respostas Emocionais" id="emotional-responses">
-                                <list>
-                                    <li>Expressão de emoções</li>
-                                    <li>Regulação do humor</li>
-                                    <li>Controle do estresse</li>
-                                </list>
-                            </chapter>
-                        </tab>
-                    </tabs>
-                </chapter>
-
-                <chapter title="Implicações Clínicas" id="clinical-implications">
-                    <chapter title="Distúrbios Relacionados" id="related-disorders">
-                        <tip>
-                            <p><control>Condições Associadas:</control></p>
-                            <list>
-                                <li>Transtornos de ansiedade</li>
-                                <li>Depressão</li>
-                                <li>Estresse pós-traumático</li>
-                            </list>
-                        </tip>
-                    </chapter>
-                </chapter>
-            </p>
+            <title>Sistema Límbico - Parte 2</title>
         </tab>
     </tabs>
 </topic> 
