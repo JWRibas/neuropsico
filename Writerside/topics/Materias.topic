@@ -819,7 +819,211 @@
             <img src="ciclo2neurofisio.png" alt="objciclo2"/>
     <tabs>
         <tab title="Fisiologia da dor">
-            <title>Fisiologia da dor</title>
+            <p><title>Fisiologia da dor</title>
+                <chapter title="Visão Geral da Dor" id="pain-overview">
+                    <p>A dor é uma experiência sensorial e emocional complexa e individual, caracterizada como uma experiência 
+                    desagradável associada a possíveis lesões teciduais. Cada pessoa vivencia a dor de forma única, com 
+                    componentes sensoriais e emocionais distintos.</p>
+                    
+                    <chapter title="Exemplos Práticos" id="practical-examples">
+                        <tip>
+                            <list>
+                                <li>Corte em dedo com folha de sulfite: Dor imediata e localizada</li>
+                                <li>Dor de dente: Dor aguda com localização precisa</li>
+                                <li>Infecção urinária: Dor difusa e progressiva</li>
+                            </list>
+                        </tip>
+                    </chapter>
+                </chapter>
+
+                <chapter title="Sistemas de Transmissão da Dor" id="transmission-systems">
+                    <p>O corpo humano possui sistemas especializados para a transmissão da dor:</p>
+                    <list>
+                        <li>Sistema Anterolateral: Via principal para transmissão de dor e temperatura</li>
+                        <li>Sistema da Coluna Dorsal: Secundário no processamento sensorial</li>
+                    </list>
+
+                    <chapter title="Receptores na Superfície da Pele" id="skin-receptors">
+                        <tabs>
+                            <tab title="Tipos de Receptores">
+                                <list>
+                                    <li>Mecânicos (corte, pressão)</li>
+                                    <li>Térmicos (calor, frio)</li>
+                                    <li>Polimodais (combinação de estímulos)</li>
+                                </list>
+                            </tab>
+                            <tab title="Ativação por Temperatura">
+                                <list>
+                                    <li>Temperatura ambiente normal (30-34°C): Receptores térmicos inativos</li>
+                                    <li>10-33°C e 32-45°C: Ativação de receptores térmicos</li>
+                                    <li>Abaixo de 5°C e acima de 45°C: Ativação dos nociceptores (receptores de dor)</li>
+                                </list>
+                            </tab>
+                        </tabs>
+                    </chapter>
+                </chapter>
+
+                <chapter title="Neurônios e Transmissão" id="neurons-transmission">
+                    <p>Características principais dos neurônios envolvidos na transmissão da dor:</p>
+                    <tip>
+                        <p>Localizados nos gânglios espinhais dorsais</p>
+                        <list>
+                            <li>Pseudo-unipolar</li>
+                            <li>Sem dendrito</li>
+                            <li>Axônio teleférico</li>
+                        </list>
+                        <p>Percorre ramo periférico e central</p>
+                    </tip>
+                </chapter>
+
+                <chapter title="Tipos de Fibras Nervosas" id="nerve-fibers">
+                    <tabs>
+                        <tab title="Fibras A-Delta">
+                            <chapter title="Características Técnicas" id="a-delta-characteristics">
+                                <list>
+                                    <li>Parcialmente mielinizadas</li>
+                                    <li>Diâmetro reduzido</li>
+                                    <li>Velocidade: 5-30 m/s (comparativamente mais rápida que Tipo C)</li>
+                                </list>
+                                
+                                <p><control>Função:</control> Dor aguda, localizada e precisa</p>
+                                
+                                <p><control>Exemplos Clínicos:</control></p>
+                                <list>
+                                    <li>Corte imediato em dedo</li>
+                                    <li>Dor de dente aguda</li>
+                                    <li>Dor localizada em área específica</li>
+                                </list>
+                                
+                                <p><control>Receptores Associados:</control></p>
+                                <list>
+                                    <li>Mecânicos</li>
+                                    <li>Térmicos (especialmente frio)</li>
+                                </list>
+                            </chapter>
+                        </tab>
+                        
+                        <tab title="Fibras Tipo C">
+                            <chapter title="Características Técnicas" id="type-c-characteristics">
+                                <list>
+                                    <li>Não mielinizadas</li>
+                                    <li>Diâmetro mínimo</li>
+                                    <li>Velocidade muito lenta: 0,5-2 m/s</li>
+                                </list>
+                                
+                                <p><control>Função:</control> Dor crônica, difusa e persistente</p>
+                                
+                                <p><control>Exemplos Clínicos:</control></p>
+                                <list>
+                                    <li>Dores de infecção urinária inicial (flutuante)</li>
+                                    <li>Dores generalizadas</li>
+                                    <li>Dores que demoram para ser localizadas</li>
+                                </list>
+                                
+                                <p><control>Receptores Associados:</control></p>
+                                <list>
+                                    <li>Polimodais</li>
+                                    <li>Mecânicos</li>
+                                    <li>Térmicos (especialmente calor)</li>
+                                    <li>Químicos</li>
+                                </list>
+                            </chapter>
+                        </tab>
+                    </tabs>
+                </chapter>
+
+                <chapter title="Vias de Transmissão da Dor" id="transmission-pathways">
+                    <tabs>
+                        <tab title="Via Neo-Espinotalâmica">
+                            <chapter title="Características Evolutivas" id="neo-spinothalamic-characteristics">
+                                <list>
+                                    <li>Mais recente</li>
+                                    <li>Evolutivamente mais desenvolvida</li>
+                                </list>
+                                
+                                <p><control>Características da Dor:</control></p>
+                                <list>
+                                    <li>Rápida</li>
+                                    <li>Precisa</li>
+                                    <li>Bem localizada</li>
+                                </list>
+                                
+                                <p><control>Caminho Detalhado:</control></p>
+                                <list>
+                                    <li>Gânglio espinhal</li>
+                                    <li>Corno posterior da medula</li>
+                                    <li>Funículo lateral</li>
+                                    <li>Neurônios de segunda ordem</li>
+                                    <li>Tálamo</li>
+                                    <li>Córtex Parietal</li>
+                                </list>
+                            </chapter>
+                        </tab>
+
+                        <tab title="Via Paleo-Espinotalâmica">
+                            <chapter title="Características Evolutivas" id="paleo-spinothalamic-characteristics">
+                                <list>
+                                    <li>Mais antiga</li>
+                                    <li>Processamento complexo</li>
+                                </list>
+                                
+                                <p><control>Características da Dor:</control></p>
+                                <list>
+                                    <li>Lenta</li>
+                                    <li>Difusa</li>
+                                    <li>Emocionalmente carregada</li>
+                                </list>
+                                
+                                <p><control>Caminho Complexo:</control></p>
+                                <list>
+                                    <li>Medula espinhal</li>
+                                    <li>Formação reticular</li>
+                                    <li>Mesencéfalo</li>
+                                    <li>Substância cinzenta periaquedutal</li>
+                                    <li>Amígdala <img width="300" src="Amigdala.jpg" alt="Amígdala"/></li>
+                                    <li>Hipocampo <img width="300" src="hipocampo.jpg" alt="Hipocampo"/></li>
+                                    <li>Hipotálamo</li>
+                                    <li>Córtex frontal</li>
+                                    <li>Núcleos motores</li>
+                                </list>
+                            </chapter>
+                        </tab>
+                    </tabs>
+                </chapter>
+
+                <chapter title="Características da Dor Crônica" id="chronic-pain">
+                    <tip>
+                        <p><control>Aspectos Fisiológicos:</control></p>
+                        <list>
+                            <li>Reações neurovegetativas intensas</li>
+                            <li>Variabilidade individual de percepção</li>
+                            <li>Impacto emocional significativo</li>
+                        </list>
+                        
+                        <p><control>Manifestações Físicas:</control></p>
+                        <list>
+                            <li>Aumento da frequência cardíaca</li>
+                            <li>Alterações de sudorese</li>
+                            <li>Mudanças no comportamento</li>
+                        </list>
+                        
+                        <p><control>Manifestações Emocionais:</control></p>
+                        <list>
+                            <li>Estresse</li>
+                            <li>Tensão</li>
+                            <li>Preocupação</li>
+                        </list>
+                    </tip>
+                </chapter>
+
+                <chapter title="Conclusão" id="conclusao">
+                    <tip>
+                        <p>A dor transcende a simples percepção física, constituindo-se como um mecanismo neurológico complexo 
+                        de sinalização corporal. Envolve múltiplas vias de transmissão, tipos de fibras nervosas, respostas 
+                        individuais e profundas interconexões entre sistemas sensoriais, emocionais e de alerta do organismo.</p>
+                    </tip>
+                </chapter>
+            </p>
         </tab>
         <tab title="Fisiologia da dor - Parte 2">
             <title>Fisiologia da dor - Parte 2</title>
