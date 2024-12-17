@@ -24,7 +24,6 @@
 
         <misc>
             <cards>
-                <title>Tópicos Principais</title>
                 <card href="Neuroanatomia-Clinica.topic" title="Neuroanatomia"/>
                 <card href="Materias.topic" title="Matérias"/>
             </cards>
