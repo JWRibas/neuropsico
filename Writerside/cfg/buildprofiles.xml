@@ -7,7 +7,7 @@
         <variables>
             <algolia-id>J6S4WZ4YMX</algolia-id>
             <algolia-index>docs_index</algolia-index>
-            <algolia-api-key>8e6a824e3afe1ca5d3c8c37ea3844551</algolia-api-key>
+            <algolia-api-key>YOUR_SEARCH_ONLY_API_KEY</algolia-api-key>
             <algolia-show-logo>true</algolia-show-logo>
             <algolia-powered-by>true</algolia-powered-by>
             <algolia-attribution>true</algolia-attribution>

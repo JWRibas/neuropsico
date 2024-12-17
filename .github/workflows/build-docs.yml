@@ -17,7 +17,7 @@ env:
   ALGOLIA_INDEX_NAME: 'docs_index'
   CONFIG_JSON_PRODUCT: 'neuropsico'
   CONFIG_JSON_VERSION: '1.0'
-  ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_KEY }}
+  ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
 
 jobs:
   build:
