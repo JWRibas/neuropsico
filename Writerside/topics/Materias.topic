@@ -6,8 +6,7 @@
 
     <chapter title="Aprendizagem e Memória; Pensamento" id="neurofisiologia">
         <img src="neurofisio_aprend.png" alt="objciclo1"/>
-        
-        <chapter title="Memória e Aprendizagem" id="memoria-aprendizagem">
+        <chapter title="" id="">
             <tabs>
                 <tab title="Memória e Aprendizagem">
                     <title>Memória e Aprendizagem</title>
@@ -598,11 +597,6 @@
 
                     </p>
                 </tab>
-            </tabs>
-        </chapter>
-
-        <chapter title="Pensamento" id="pensamento">
-            <tabs>
                 <tab title="Pensamento">
                     <p><title>
                         Pensamento
@@ -778,46 +772,41 @@
 
                     </p>
                 </tab>
+                <tab title="Textos Recomendados" id="referencias-recomendadas">
+                    <chapter title="📚 Textos Recomendados" id="referencias-recomendadas">
+                        <list>
+                            <li>
+                                <p>Aprendizagem e Memória – Contexto Motor</p>
+                                <p>Autores: C.S.C. Sá; C.C. Medalha</p>
+                                <p>Publicação: Rev. Neurociências; v.9, n.3, p 103-110, 2001</p>
+                                <a href="https://cdn-fapsi.s3.us-east-2.amazonaws.com/EAD-FAPSI/Aulas-Gravadas/NRBED/Neurofisiologia/Prof+Karina+Paes/Material+Extra/Ciclo+01/Aprendizagem-e-Memoria.pdf">Ler Agora</a>
+                            </li>
+                            <li>
+                                <p>Memória, Aprendizagem, Emoções e Inteligência</p>
+                                <p>Autores: A.B. Souza; T.D.M. Salgado</p>
+                                <p>Publicação: Revista Liberato, Novo Hamburgo, v. 16, n. 26, p. 101-220, jul./dez. 2015</p>
+                                <a href="https://cdn-fapsi.s3.us-east-2.amazonaws.com/EAD-FAPSI/Aulas-Gravadas/NRBED/Neurofisiologia/Prof+Karina+Paes/Material+Extra/Ciclo+01/Memoria-Aprendizagem-Emocoes.pdf">Ler Agora</a>
+                            </li>
+                        </list>
+
+                            <chapter title="🎥 Vídeos Recomendados" id="_vídeos_recomendados">
+                            <list>
+                            <li>
+                                <p>Memória | Ivan Izquierdo</p>
+                                <p>Explicação sobre o funcionamento da memória por um renomado neurocientista</p>
+                                <video src="https://www.youtube.com/watch?v=SbsJh-W-lDc"></video>
+                            </li>
+                            <li>
+                                <p>Como Funciona o Pensamento</p>
+                                <p>"Por que os alunos não gostam da escola?" (Daniel Willinghan)</p>
+                                <p>"A árvore do conhecimento" (Maturana e Varela)</p>
+                                <video src="https://www.youtube.com/watch?v=1jBQElSF6Dk"></video>
+                            </li>
+                        </list>
+                    </chapter>
+            </tab>
             </tabs>
         </chapter>
-    </chapter>
-
-    <chapter title="Material Complementar" id="material-complementar">
-        <chapter title="📚 Textos Recomendados" id="referencias-recomendadas">
-                                    <list>
-                <li>
-                    <p>Aprendizagem e Memória – Contexto Motor</p>
-                    <p>Autores: C.S.C. Sá; C.C. Medalha</p>
-                    <p>Publicação: Rev. Neurociências; v.9, n.3, p 103-110, 2001</p>
-                    <a href="https://cdn-fapsi.s3.us-east-2.amazonaws.com/EAD-FAPSI/Aulas-Gravadas/NRBED/Neurofisiologia/Prof+Karina+Paes/Material+Extra/Ciclo+01/Aprendizagem-e-Memoria.pdf">Ler Agora</a>
-                </li>
-                <li>
-                    <p>Memória, Aprendizagem, Emoções e Inteligência</p>
-                    <p>Autores: A.B. Souza; T.D.M. Salgado</p>
-                    <p>Publicação: Revista Liberato, Novo Hamburgo, v. 16, n. 26, p. 101-220, jul./dez. 2015</p>
-                    <a href="https://cdn-fapsi.s3.us-east-2.amazonaws.com/EAD-FAPSI/Aulas-Gravadas/NRBED/Neurofisiologia/Prof+Karina+Paes/Material+Extra/Ciclo+01/Memoria-Aprendizagem-Emocoes.pdf">Ler Agora</a>
-                </li>
-                                    </list>
-                        </chapter>
-
-        <chapter title="🎥 Vídeos Recomendados" id="videos-recomendados">
-                            <list>
-                <li>
-                    <p>Memória | Ivan Izquierdo</p>
-                    <p>Explicação sobre o funcionamento da memória por um renomado neurocientista</p>
-                    <video src="https://www.youtube.com/watch?v=SbsJh-W-lDc"></video>
-                </li>
-                <li>
-                    <p>Como Funciona o Pensamento</p>
-                    <p>"Por que os alunos não gostam da escola?" (Daniel Willinghan)</p>
-                    <p>"A árvore do conhecimento" (Maturana e Varela)</p>
-                    <video src="https://www.youtube.com/watch?v=1jBQElSF6Dk"></video>
-                </li>
-                            </list>
-                            </chapter>
-                        </chapter>
-
-    <chapter title="Resumo Visual" id="resumo-visual">
         <p>
             <img src="img_05.png" alt="chart_modulo"/>
         </p>
