@@ -822,12 +822,12 @@
             <p><title>
                 Fisiologia da dor
             </title>
-                <chapter title="Visão Geral da Dor" id="pain-overview">
+                <chapter title="Visão Geral da Dor">
                     <p>A dor é uma experiência sensorial e emocional complexa e individual, caracterizada como uma experiência 
                     desagradável associada a possíveis lesões teciduais. Cada pessoa vivencia a dor de forma única, com 
                     componentes sensoriais e emocionais distintos.</p>
                     
-                    <chapter title="Exemplos Práticos" id="practical-examples">
+                    <chapter title="Exemplos Práticos">
                         <tip>
                             <list>
                                 <li>Corte em dedo com folha de sulfite: Dor imediata e localizada</li>
@@ -838,14 +838,14 @@
                     </chapter>
                 </chapter>
 
-                <chapter title="Sistemas de Transmissão da Dor" id="transmission-systems">
+                <chapter title="Sistemas de Transmissão da Dor">
                     <p>O corpo humano possui sistemas especializados para a transmissão da dor:</p>
                     <list>
                         <li>Sistema Anterolateral: Via principal para transmissão de dor e temperatura</li>
                         <li>Sistema da Coluna Dorsal: Secundário no processamento sensorial</li>
                     </list>
 
-                    <chapter title="Receptores na Superfície da Pele" id="skin-receptors">
+                    <chapter title="Receptores na Superfície da Pele">
                         <tabs>
                             <tab title="Tipos de Receptores">
                                 <list>
@@ -865,7 +865,7 @@
                     </chapter>
                 </chapter>
 
-                <chapter title="Neurônios e Transmissão" id="neurons-transmission">
+                <chapter title="Neurônios e Transmissão">
                     <p>Características principais dos neurônios envolvidos na transmissão da dor:</p>
                     <tip>
                         <p>Localizados nos gânglios espinhais dorsais</p>
@@ -878,10 +878,10 @@
                     </tip>
                 </chapter>
 
-                <chapter title="Tipos de Fibras Nervosas" id="nerve-fibers">
+                <chapter title="Tipos de Fibras Nervosas">
                     <tabs>
                         <tab title="Fibras A-Delta">
-                            <chapter title="Características Técnicas" id="a-delta-characteristics">
+                            <chapter title="Características Técnicas">
                                 <list>
                                     <li>Parcialmente mielinizadas</li>
                                     <li>Diâmetro reduzido</li>
@@ -906,7 +906,7 @@
                         </tab>
                         
                         <tab title="Fibras Tipo C">
-                            <chapter title="Características Técnicas" id="type-c-characteristics">
+                            <chapter title="Características Técnicas">
                                 <list>
                                     <li>Não mielinizadas</li>
                                     <li>Diâmetro mínimo</li>
@@ -934,10 +934,10 @@
                     </tabs>
                 </chapter>
 
-                <chapter title="Vias de Transmissão da Dor" id="transmission-pathways">
+                <chapter title="Vias de Transmissão da Dor">
                     <tabs>
                         <tab title="Via Neo-Espinotalâmica">
-                            <chapter title="Características Evolutivas" id="neo-spinothalamic-characteristics">
+                            <chapter title="Características Evolutivas">
                                 <list>
                                     <li>Mais recente</li>
                                     <li>Evolutivamente mais desenvolvida</li>
@@ -963,7 +963,7 @@
                         </tab>
 
                         <tab title="Via Paleo-Espinotalâmica">
-                            <chapter title="Características Evolutivas" id="paleo-spinothalamic-characteristics">
+                            <chapter title="Características Evolutivas">
                                 <list>
                                     <li>Mais antiga</li>
                                     <li>Processamento complexo</li>
@@ -993,7 +993,7 @@
                     </tabs>
                 </chapter>
 
-                <chapter title="Características da Dor Crônica" id="chronic-pain">
+                <chapter title="Características da Dor Crônica">
                     <tip>
                         <p><control>Aspectos Fisiológicos:</control></p>
                         <list>
@@ -1018,7 +1018,7 @@
                     </tip>
                 </chapter>
 
-                <chapter title="Conclusão" id="conclusao">
+                <chapter title="Conclusão">
                     <tip>
                         <p>A dor transcende a simples percepção física, constituindo-se como um mecanismo neurológico complexo 
                         de sinalização corporal. Envolve múltiplas vias de transmissão, tipos de fibras nervosas, respostas 
