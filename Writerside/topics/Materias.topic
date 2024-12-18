@@ -1029,7 +1029,148 @@
         </tab>
         <tab title="Fisiologia da dor - Parte 2">
             <title>Fisiologia da dor - Parte 2</title>
-        </tab>
+
+    <chapter title="Base Neuroanatômica e Efeitos Fisiológicos" id="base-neuroanatomica-e-efeitos-fisiologicos">
+    <p>O córtex frontal e basal relaciona-se com a afetividade, enquanto o hipotálamo controla reações neurovegetativas.</p>
+
+        <p><control>Exemplo prático:</control> "Já faz 2 anos que meu ombro dói, já faz 2 anos que meu pescoço dói e não sei o que é dormir sem dor" - demonstrando como a dor crônica ativa todo o sistema de estresse corporal.</p>
+
+    <p>Manifestações incluem:</p>
+    <list>
+        <li>Alterações de pressão arterial</li>
+        <li>Taquicardia/bradicardia</li>
+        <li>Hipotensão arterial</li>
+        <li>Sudorese</li>
+        <li>Taquipneia</li>
+        <li>Alterações gastrointestinais</li>
+    </list> 
+</chapter>
+
+<chapter title="Teoria da Comporta da Dor (Gate Control Theory)" id="teoria-da-comporta-da-dor-gate-control-theory">
+    <p>Desenvolvida por Melzack e Wall (1965), esta teoria revolucionou o entendimento da modulação da dor. Explica como estímulos táteis podem inibir sensações dolorosas através da competição entre fibras nervosas.</p>
+
+    <p><control>Exemplo clássico citado:</control> "Quando a criança bate o braço na mesa e fala 'aman, machuquei', a mãe vai dar um beijo e a criança para de sentir dor" - isto ocorre porque o estímulo tátil (mielinizado) chega mais rapidamente que o doloroso.</p>
+
+    <p><control>Contra-exemplo importante:</control> "Se você teve um acidente de carro, estava na bicicleta e arrancou seu braço, não vai adiantar ninguém dar um estímulo tátil para passar a dor."</p>
+</chapter>
+
+<chapter title="Sistema de Modulação Endógena da Dor" id="sistema-de-modulacao-endogena-da-dor">
+    <p>Envolve:</p>
+    <list>
+        <li>Endorfinas</li>
+        <li>Encefalinas</li>
+        <li>Dinorfinas</li>
+        <li>Beta-endorfinas</li>
+    </list>
+
+    <p><control>Exemplo motivacional:</control> Atletas em corridas de longa distância que, ao verem fotos da família ou lembrarem de suas causas (como "crianças com paralisia cerebral"), ativam vias de liberação de endorfinas.</p>
+</chapter>
+
+<chapter title="Classificação das Dores (baseada nos critérios da IASP)" id="classificacao-das-dores-baseada-nos-criterios-da-iasp">
+<list type="a">
+<li>
+<p><control>Dor Aguda:</control></p>
+<list>
+<li>Exemplos: extração dentária, cólica menstrual</li>
+<li>Duração limitada</li>
+<li>Função protetora</li>
+</list>
+</li>
+<li>
+<p><control>Dor Crônica (> 3 meses):</control></p>
+<list>
+<li>Exemplos: dor oncológica, síndrome de dor lombar</li>
+<li>Subdivide-se em:
+<list>
+<li>Nociceptiva</li>
+<li>Neuropática</li>
+<li>Síndrome de dor crônica</li>
+</list>
+</li>
+</list>
+</li>
+<li>
+<p><control>Dor Somatogênica:</control></p>
+<p>Exemplos:</p>
+<list>
+<li>Dor abdominal pré-exame</li>
+<li>Dores psicossomáticas</li>
+</list>
+</li>
+</list>
+</chapter>
+
+<chapter title="Fibromialgia (Critérios do American College of Rheumatology)" id="fibromialgia-criterios-do-american-college-of-rheumatology">
+<list>
+<li>11/18 pontos gatilho positivos</li>
+<li>Predominância em mulheres 40-60 anos</li>
+<li>Localizações específicas: região occipital, cervical baixa, glúteos, joelhos</li>
+</list>
+</chapter>
+
+<chapter title="Avaliação da Dor" id="avaliacao-da-dor">
+<p>Instrumentos validados:</p>
+<list>
+<li>Inventário de Dor de McGill</li>
+<li>Escala Visual Analógica (EVA)</li>
+<li>Escala Numérica (0-10)</li>
+</list>
+
+<p>Descritores comuns relatados:</p>
+<p>"Deprimente", "Desastrosa", "Dolorosa", "Assustadora", "Cruel"</p>
+</chapter>
+
+<chapter title="Abordagem Terapêutica" id="abordagem-terapeutica">
+<p><control>Farmacológica:</control></p>
+<list type="a">
+<li>
+<p>Opioides:</p>
+<list>
+<li>Naturais: morfina, codeína, papaverina</li>
+<li>Semissintéticos: derivados da morfina</li>
+<li>Sintéticos: tramadol, metadona</li>
+<li>Endógenos: endorfinas</li>
+</list>
+</li>
+<li>
+<p>Não-opioides:</p>
+<list>
+<li>AINEs (desenvolvidos a partir da aspirina por Felix Hoffmann, 1897)</li>
+<li>Antidepressivos tricíclicos</li>
+<li>Anticonvulsivantes</li>
+</list>
+</li>
+</list>
+
+<p><control>Não-farmacológica:</control></p>
+<list>
+<li>Fisioterapia</li>
+<li>Técnicas de relaxamento</li>
+<li>Abordagem psicológica</li>
+</list>
+</chapter>
+
+<chapter title="Teorias e Modelos Citados" id="teorias-e-modelos-citados">
+<list type="decimal">
+<li>Gate Control Theory (Melzack e Wall, 1965)</li>
+<li>Modelo Biopsicossocial da Dor (Engel, 1977)</li>
+<li>Neuromatrix Theory of Pain (Melzack, 1999)</li>
+</list>
+</chapter>
+
+<chapter title="Principais Referências Teóricas Mencionadas" id="principais-referencias-teoricas-mencionadas">
+<list>
+<li>"Pain Mechanisms: A New Theory" (Melzack & Wall, 1965)</li>
+<li>"Textbook of Pain" (Wall & Melzack)</li>
+<li>Critérios do American College of Rheumatology para Fibromialgia</li>
+<li>Diretrizes da International Association for the Study of Pain (IASP)</li>
+</list>
+</chapter>
+
+<p>Este resumo integra as bases teóricas do estudo da dor com exemplos práticos do cotidiano clínico, oferecendo uma visão abrangente do tema para profissionais de saúde e estudiosos da área.</p>
+
+</tab>
+
         <tab title="Sistema Límbico - Parte 1">
             <title>Sistema Límbico - Parte 1</title>
         </tab>
@@ -1037,4 +1178,8 @@
             <title>Sistema Límbico - Parte 2</title>
         </tab>
     </tabs>
-</topic>  
+<p>
+    <a href="#neurofisiologia2">Voltar ao Topo</a>
+</p>
+<p>―――――――――――――――――――――――――――</p>
+</topic>
